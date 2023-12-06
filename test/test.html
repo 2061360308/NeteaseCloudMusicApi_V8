@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>页面标题</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="vue.min.js"></script>
+    <script src="bundle.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <pre id="json">{{content}}</pre>
+    </div>
+  </body>
+  <script>
+    const vue = new Vue({
+      el: "#app",
+      data: {
+        content: "",
+      },
+      methods: {
+        updateContent: function (result) {
+          this.content = result;
+        },
+      },
+    });
+  </script>
+  <script>
+    // import createRequestParam from "../util/request2.js";
+
+    // const request_param = createRequestParam;
+
+    function cookieToJson(cookie) {
+      if (!cookie) return {};
+      let cookieArr = cookie.split(";");
+      let obj = {};
+      cookieArr.forEach((i) => {
+        let arr = i.split("=");
+        obj[arr[0]] = arr[1];
+      });
+      return obj;
+    }
+
+    function songv1(query, request) {
+      query.cookie.os = "android";
+      query.cookie.appver = "8.10.05";
+      const data = {
+        ids: "[" + query.id + "]",
+        level: query.level,
+        encodeType: "flac",
+      };
+      if (data.level == "sky") {
+        data.immerseType = "c51";
+      }
+      return request(
+        "POST",
+        `https://interface.music.163.com/eapi/song/enhance/player/url/v1`,
+        data,
+        {
+          crypto: "eapi",
+          cookie: query.cookie,
+          proxy: query.proxy,
+          realIP: query.realIP,
+          url: "/api/song/enhance/player/url/v1",
+        }
+      );
+    }
+
+    async function main() {
+      let cookie = "Your Cookie";
+      let query = {
+        id: 33894312,
+        level: "exhigh",
+        cookie: cookieToJson(cookie),
+        realIP: "116.25.146.177",
+      };
+
+      let result = songv1(query, request_param);
+
+      console.log(result);
+
+      let formattedResult = JSON.stringify(result, null, 2); // 格式化 JSON 对象
+
+      vue.content = result;
+    }
+
+    (async function () {
+      await main();
+    })();
+  </script>
+</html>
