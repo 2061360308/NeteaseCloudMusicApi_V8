@@ -1,5 +1,5 @@
 // 点赞与取消点赞资源
-import resourceTypeMap from '../util/config.json'
+import config from '../util/config.json';const resourceTypeMap = config.resourceTypeMap;
 export default (query, request) => {
   query.cookie.os = 'android'
   query.t = query.t == 1 ? 'like' : 'unlike'

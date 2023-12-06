@@ -1,4 +1,4 @@
-import resourceTypeMap from '../util/config.json'
+import config from '../util/config.json';const resourceTypeMap = config.resourceTypeMap;
 // 点赞与取消点赞评论
 
 export default (query, request) => {

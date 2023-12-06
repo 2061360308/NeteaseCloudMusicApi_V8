@@ -1,4 +1,4 @@
-import resourceTypeMap from '../util/config.json'
+import config from '../util/config.json';const resourceTypeMap = config.resourceTypeMap;
 export default (query, request) => {
   query.cookie.os = 'ios'
   query.cookie.appver = '8.10.90'

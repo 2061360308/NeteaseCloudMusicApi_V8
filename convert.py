@@ -19,7 +19,7 @@ def import_statement_conversion(content):
     return content
 
 def require_statement_conversion(content):
-    content = content.replace("const { resourceTypeMap } = require('../util/config.json')", "import resourceTypeMap from '../util/config.json'")
+    content = content.replace("const { resourceTypeMap } = require('../util/config.json')", "import config from '../util/config.json';const resourceTypeMap = config.resourceTypeMap;")
     content = content.replace("const crypto = require('crypto')", "")
     content = content.replace("const pkg = require('../package.json')", "import pkg from '../package.json'")
     content = content.replace("const config = require('../util/config.json')", "import config from '../util/config.json'")

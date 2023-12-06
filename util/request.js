@@ -3,27 +3,6 @@ import CryptoJS from "crypto-js";
 
 // request.debug = true // 开启可看到更详细信息
 
-// function customEncodeURIComponent(str) {
-//   var result = "";
-//   console.log("请求：", str);
-
-//   if (str !== undefined && str !== null) {
-//     for (var i = 0; i < str.length; i++) {
-//       var char = str.charAt(i);
-//       if (/^[a-zA-Z0-9\-_.!~*'()]$/.test(char)) {
-//         // 这些字符不需要编码
-//         result += char;
-//       } else {
-//         // 其他字符需要编码
-//         var charCode = str.charCodeAt(i).toString(16);
-//         result +=
-//           "%" + (charCode.length < 2 ? "0" : "") + charCode.toUpperCase();
-//       }
-//     }
-//   }
-//   return result;
-// }
-
 const chooseUserAgent = (ua = false) => {
   const userAgentList = {
     mobile: [
