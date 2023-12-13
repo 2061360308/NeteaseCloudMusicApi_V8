@@ -1,33 +1,17 @@
-import api from "./api";
-import { cookieToJson } from "./util/index.js";
-import requset from "./util/request.js";
+import beforeRequest from "./util/beforeRequest.js";
+import afterRequest from "./util/afterRequest.js";
+import this_package from "./package.json" assert { type: "json" };
 
-function hasApi(name) {
-  return Object.keys(api).includes(name);
-}
+const NeteaseCloudMusicApi_inner_version = "4.13.8"; // 本项目使用的 NeteaseCloudMusicApi 版本号
+const NeteaseCloudMusicApi_V8_version = this_package.version; // 本项目的版本号
 
-function apiRequest(name, query) {
-  // 处理字符串格式的 cookie
-  if (typeof query.cookie === "string") {
-    query.cookie = cookieToJson(query.cookie);
-  }
-
-//   let query = params;
-
-//   console.log("query", query);
-
-  if (name.startsWith("/")) {
-    name = name.slice(1);
-  }
-  name = name.replace(/\//g, "_");
-
-//   console.log(name, hasApi(name));
-
-  if (hasApi(name)) {
-    return api[name](query, requset);
-  } else {
-    return { error: `api (${name}) not found` };
-  }
-}
-
-export default apiRequest;
+export default {
+  beforeRequest,
+  afterRequest,
+  inner_version: () => {
+    return {
+      NeteaseCloudMusicApi: NeteaseCloudMusicApi_inner_version,
+      NeteaseCloudMusicApi_V8: NeteaseCloudMusicApi_V8_version,
+    };
+  },
+}; // 一个请求前钩子，一个请求后钩子

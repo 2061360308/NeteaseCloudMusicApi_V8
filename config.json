@@ -1,0 +1,3104 @@
+{
+    "/user/detail": {
+        "name": "获取用户详情",
+        "explain": "说明 : 登录后调用此接口 , 传入用户 id, 可以获取用户详情",
+        "example": [
+            {
+                "query": {
+                    "uid": "32953014"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/user/account": {
+        "name": "获取账号信息",
+        "explain": "说明 : 登录后调用此接口 ,可获取用户账号信息",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/user/subcount": {
+        "name": "获取用户信息 , 歌单，收藏，mv, dj 数量",
+        "explain": "说明 : 登录后调用此接口 , 可以获取用户信息",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/user/level": {
+        "name": "获取用户等级信息",
+        "explain": "说明 : 登录后调用此接口 , 可以获取用户等级信息,包含当前登录天数,听歌次数,下一等级需要的登录天数和听歌次数,当前等级进度,对应 ",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/user/binding": {
+        "name": "获取用户绑定信息",
+        "explain": "说明 : 登录后调用此接口 , 可以获取用户绑定信息",
+        "example": [
+            {
+                "query": {
+                    "uid": "32953014"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/user/playlist": {
+        "name": "获取用户歌单",
+        "explain": "说明 : 登录后调用此接口 , 传入用户 id, 可以获取用户歌单",
+        "example": [
+            {
+                "query": {
+                    "uid": "32953014"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/playlist/order/update": {
+        "name": "调整歌单顺序",
+        "explain": "说明 : 登录后调用此接口,可以根据歌单 id 顺序调整歌单顺序",
+        "example": [
+            {
+                "query": {
+                    "ids": "[111,222]"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/song/order/update": {
+        "name": "调整歌曲顺序",
+        "explain": "说明 : 登录后调用此接口,可以根据歌曲 id 顺序调整歌曲顺序",
+        "example": [
+            {
+                "query": {
+                    "pid": "2039116066",
+                    "ids": "[5268328,1219871]"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/user/comment/history": {
+        "name": "获取用户历史评论",
+        "explain": "说明 : 登录后调用此接口 , 传入用户 id, 可以获取用户历史评论",
+        "example": [
+            {
+                "query": {
+                    "uid": "32953014"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "uid": "32953014",
+                    "limit": "1",
+                    "time": "1616217577564"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/user/dj": {
+        "name": "获取用户电台",
+        "explain": "说明 : 登录后调用此接口 , 传入用户 id, 可以获取用户电台",
+        "example": [
+            {
+                "query": {
+                    "uid": "32953014"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/user/follows": {
+        "name": "获取用户关注列表",
+        "explain": "说明 : 登录后调用此接口 , 传入用户 id, 可以获取用户关注列表",
+        "example": [
+            {
+                "query": {
+                    "uid": "32953014"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/user/followeds": {
+        "name": "获取用户粉丝列表",
+        "explain": "说明 : 登录后调用此接口 , 传入用户 id, 可以获取用户粉丝列表",
+        "example": [
+            {
+                "query": {
+                    "uid": "32953014"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "uid": "416608258",
+                    "limit": "1"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "uid": "416608258",
+                    "limit": "1",
+                    "offset": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/user/event": {
+        "name": "获取用户动态",
+        "explain": "说明 : 登录后调用此接口 , 传入用户 id, 可以获取用户动态",
+        "example": [
+            {
+                "query": {
+                    "uid": "32953014"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "uid": "32953014",
+                    "limit": "1",
+                    "lasttime": "1558011138743"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/comment/event": {
+        "name": "获取动态评论",
+        "explain": "说明 : 登录后调用此接口 , 可以获取动态下评论",
+        "example": [
+            {
+                "query": {
+                    "threadId": "A_EV_2_6559519868_32953014"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/follow": {
+        "name": "关注/取消关注用户",
+        "explain": "说明 : 登录后调用此接口 , 传入用户 id, 和操作 t,可关注/取消关注用户",
+        "example": [
+            {
+                "query": {
+                    "id": "32953014",
+                    "t": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/user/record": {
+        "name": "获取用户播放记录",
+        "explain": "说明 : 登录后调用此接口 , 传入用户 id, 可获取用户播放记录",
+        "example": [
+            {
+                "query": {
+                    "uid": "32953014",
+                    "type": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/hot/topic": {
+        "name": "获取热门话题",
+        "explain": "说明 : 调用此接口 , 可获取热门话题",
+        "example": [
+            {
+                "query": {
+                    "limit": "30",
+                    "offset": "30"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/topic/detail": {
+        "name": "获取话题详情",
+        "explain": "说明 : 调用此接口 , 可获取话题详情",
+        "example": [
+            {
+                "query": {
+                    "actid": "111551188"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/topic/detail/event/hot": {
+        "name": "获取话题详情热门动态",
+        "explain": "说明 : 调用此接口 , 可获取话题详情热门动态",
+        "example": [
+            {
+                "query": {
+                    "actid": "111551188"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/comment/hotwall/list": {
+        "name": "云村热评(官方下架,暂不能用)",
+        "explain": "说明 : 登录后调用此接口 , 可获取云村热评",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/playmode/intelligence/list": {
+        "name": "心动模式/智能播放",
+        "explain": "说明 : 登录后调用此接口 , 可获取心动模式/智能播放列表\n",
+        "example": [
+            {
+                "query": {
+                    "id": "33894312",
+                    "pid": "24381616"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "id": "33894312",
+                    "pid": "24381616",
+                    "sid": "36871368"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/event": {
+        "name": "获取动态消息",
+        "explain": "说明 : 调用此接口 , 可获取各种动态 , 对应网页版网易云，朋友界面里的各种动态消息\n，如分享的视频，音乐，照片等！",
+        "example": [
+            {
+                "query": {
+                    "pagesize": "30",
+                    "lasttime": "1556740526369"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/artist/list": {
+        "name": "歌手分类列表",
+        "explain": "说明 : 调用此接口,可获取歌手分类列表",
+        "example": [
+            {
+                "query": {
+                    "type": "1",
+                    "area": "96",
+                    "initial": "b"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "type": "2",
+                    "area": "2",
+                    "initial": "b"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/artist/sub": {
+        "name": "收藏/取消收藏歌手",
+        "explain": "说明 : 调用此接口,可收藏歌手",
+        "example": [
+            {
+                "query": {
+                    "id": "6452",
+                    "t": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/artist/top/song": {
+        "name": "歌手热门 50 首歌曲",
+        "explain": "说明 : 调用此接口,可获取歌手热门 50 首歌曲",
+        "example": [
+            {
+                "query": {
+                    "id": "6452"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/artist/songs": {
+        "name": "歌手全部歌曲",
+        "explain": "说明 : 调用此接口,可获取歌手全部歌曲\n",
+        "example": [
+            {
+                "query": {
+                    "id": "6452"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/artist/sublist": {
+        "name": "收藏的歌手列表",
+        "explain": "说明 : 调用此接口,可获取收藏的歌手列表  ",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/topic/sublist": {
+        "name": "收藏的专栏",
+        "explain": "说明 : 调用此接口,可获取收藏的专栏",
+        "example": [
+            {
+                "query": {
+                    "limit": "2",
+                    "offset": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/video/sub": {
+        "name": "收藏视频",
+        "explain": "说明 : 调用此接口,可收藏视频",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/mv/sub": {
+        "name": "收藏/取消收藏 MV",
+        "explain": "说明 : 调用此接口,可收藏/取消收藏 MV",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/mv/sublist": {
+        "name": "收藏的 MV 列表",
+        "explain": "说明 : 调用此接口,可获取收藏的 MV 列表",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/playlist/catlist": {
+        "name": "歌单分类",
+        "explain": "说明 : 调用此接口,可获取歌单分类,包含 category 信息",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/playlist/hot": {
+        "name": "热门歌单分类",
+        "explain": "说明 : 调用此接口,可获取歌单分类,包含 category 信息",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/top/playlist": {
+        "name": "歌单 ( 网友精选碟 )",
+        "explain": "说明 : 调用此接口 , 可获取网友精选碟歌单",
+        "example": [
+            {
+                "query": {
+                    "limit": "10",
+                    "order": "new"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/playlist/highquality/tags": {
+        "name": "精品歌单标签列表",
+        "explain": "说明 : 调用此接口 , 可获取精品歌单标签列表",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/top/playlist/highquality": {
+        "name": "获取精品歌单",
+        "explain": "说明 : 调用此接口 , 可获取精品歌单",
+        "example": [
+            {
+                "query": {
+                    "before": "1503639064232",
+                    "limit": "3"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/related/playlist": {
+        "name": "相关歌单推荐",
+        "explain": "说明 : 调用此接口,传入歌单 id 可获取相关歌单(对应页面 ",
+        "example": [
+            {
+                "query": {
+                    "id": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/playlist/detail": {
+        "name": "获取歌单详情",
+        "explain": "说明 : 歌单能看到歌单名字, 但看不到具体歌单内容 , 调用此接口 , 传入歌单 id, 可\n以获取对应歌单内的所有的音乐(未登录状态只能获取不完整的歌单,登录后是完整的)，但是返回的 trackIds 是完整的，tracks 则是不完整的，可拿全部 trackIds 请求一次 ",
+        "example": [
+            {
+                "query": {
+                    "id": "24381616"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/playlist/track/all": {
+        "name": "获取歌单所有歌曲",
+        "explain": "说明 : 由于网易云接口限制，歌单详情只会提供 10 首歌，通过调用此接口，传入对应的歌单",
+        "example": [
+            {
+                "query": {
+                    "id": "24381616",
+                    "limit": "10",
+                    "offset": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/playlist/detail/dynamic": {
+        "name": "歌单详情动态",
+        "explain": "说明 : 调用后可获取歌单详情动态部分,如评论数,是否收藏,播放数",
+        "example": [
+            {
+                "query": {
+                    "id": "24381616"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/playlist/update/playcount": {
+        "name": "歌单更新播放量",
+        "explain": "说明 : 调用后可更新歌单播放量",
+        "example": [
+            {
+                "query": {
+                    "id": "24381616"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/song/url": {
+        "name": "获取音乐 url",
+        "explain": "说明 : 使用歌单详情接口后 , 能得到的音乐的 id, 但不能得到的音乐 url, 调用此接口, 传入的音乐 id( 可多个 , 用逗号隔开 ), 可以获取对应的音乐的 url,未登录状态或者非会员返回试听片段(返回字段包含被截取的正常歌曲的开始时间和结束时间)",
+        "example": [
+            {
+                "query": {
+                    "id": "33894312"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "id": "405998841,33894312"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/song/url/v1": {
+        "name": "获取音乐 url - 新版",
+        "explain": "说明 : 使用注意事项同上",
+        "example": [
+            {
+                "query": {
+                    "id": "33894312",
+                    "level": "exhigh"
+                },
+                "result": {
+                    "data": [
+                        {
+                            "id": 33894312,
+                            "url": "http://m8.music.126.net/20231209205100/462f1c5fe843ca389b1ef473fff34ce8/ymusic/0fd6/4f65/43ed/a8772889f38dfcb91c04da915b301617.mp3",
+                            "br": 320000,
+                            "size": 10691439,
+                            "md5": "a8772889f38dfcb91c04da915b301617",
+                            "code": 200,
+                            "expi": 1200,
+                            "type": "mp3",
+                            "gain": -6.3072,
+                            "peak": 1,
+                            "fee": 0,
+                            "uf": null,
+                            "payed": 0,
+                            "flag": 1,
+                            "canExtend": false,
+                            "freeTrialInfo": null,
+                            "level": "exhigh",
+                            "encodeType": "mp3",
+                            "channelLayout": null,
+                            "freeTrialPrivilege": {
+                                "resConsumable": false,
+                                "userConsumable": false,
+                                "listenType": null,
+                                "cannotListenReason": null,
+                                "playReason": null
+                            },
+                            "freeTimeTrialPrivilege": {
+                                "resConsumable": false,
+                                "userConsumable": false,
+                                "type": 0,
+                                "remainTime": 0
+                            },
+                            "urlSource": 0,
+                            "rightSource": 0,
+                            "podcastCtrp": null,
+                            "effectTypes": null,
+                            "time": 267232
+                        }
+                    ],
+                    "code": 200
+                }
+            },
+            {
+                "query": {
+                    "id": "405998841,33894312",
+                    "level": "lossless"
+                },
+                "result": {
+                    "data": [
+                        {
+                            "id": 33894312,
+                            "url": "http://m7.music.126.net/20231209205100/462f1c5fe843ca389b1ef473fff34ce8/ymusic/0fd6/4f65/43ed/a8772889f38dfcb91c04da915b301617.mp3",
+                            "br": 320000,
+                            "size": 10691439,
+                            "md5": "a8772889f38dfcb91c04da915b301617",
+                            "code": 200,
+                            "expi": 1200,
+                            "type": "mp3",
+                            "gain": -6.3072,
+                            "peak": 1,
+                            "fee": 0,
+                            "uf": null,
+                            "payed": 0,
+                            "flag": 129,
+                            "canExtend": false,
+                            "freeTrialInfo": null,
+                            "level": "exhigh",
+                            "encodeType": "mp3",
+                            "channelLayout": null,
+                            "freeTrialPrivilege": {
+                                "resConsumable": false,
+                                "userConsumable": false,
+                                "listenType": 5,
+                                "cannotListenReason": 1,
+                                "playReason": null
+                            },
+                            "freeTimeTrialPrivilege": {
+                                "resConsumable": false,
+                                "userConsumable": false,
+                                "type": 0,
+                                "remainTime": 0
+                            },
+                            "urlSource": 0,
+                            "rightSource": 0,
+                            "podcastCtrp": null,
+                            "effectTypes": null,
+                            "time": 267232
+                        },
+                        {
+                            "id": 405998841,
+                            "url": "http://m802.music.126.net/20231209205100/2af80b0fc9e43780812c1b4b2b50bfba/jd-musicrep-ts/0543/8721/0d4a/e716f340b10313989dc65ea842465e89.mp3",
+                            "br": 128018,
+                            "size": 321036,
+                            "md5": "e716f340b10313989dc65ea842465e89",
+                            "code": 200,
+                            "expi": 1200,
+                            "type": "MP3",
+                            "gain": 2,
+                            "peak": 0,
+                            "fee": 1,
+                            "uf": null,
+                            "payed": 0,
+                            "flag": 1284,
+                            "canExtend": false,
+                            "freeTrialInfo": {
+                                "fragmentType": 1003,
+                                "start": 2,
+                                "end": 22,
+                                "algData": {
+                                    "audioEffect": -1
+                                }
+                            },
+                            "level": "standard",
+                            "encodeType": "mp3",
+                            "channelLayout": null,
+                            "freeTrialPrivilege": {
+                                "resConsumable": false,
+                                "userConsumable": false,
+                                "listenType": 5,
+                                "cannotListenReason": 1,
+                                "playReason": null
+                            },
+                            "freeTimeTrialPrivilege": {
+                                "resConsumable": false,
+                                "userConsumable": false,
+                                "type": 0,
+                                "remainTime": 0
+                            },
+                            "urlSource": 0,
+                            "rightSource": 0,
+                            "podcastCtrp": null,
+                            "effectTypes": null,
+                            "time": 20035
+                        }
+                    ],
+                    "code": 200
+                }
+            }
+        ]
+    },
+    "/check/music": {
+        "name": "音乐是否可用",
+        "explain": "说明: 调用此接口,传入歌曲 id, 可获取音乐是否可用,返回 ",
+        "example": [
+            {
+                "query": {
+                    "id": "33894312"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/cloudsearch": {
+        "name": "搜索",
+        "explain": "说明 : 调用此接口 , 传入搜索关键词可以搜索该音乐 / 专辑 / 歌手 / 歌单 / 用户 ,\n关键词可以多个 , 以空格隔开 , 如 \" 周杰伦 搁浅 \"( 不需要登录 ), 可通过 ",
+        "example": [
+            {
+                "query": {
+                    "keywords": "海阔天空"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "keywords": "海阔天空"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/search/hot": {
+        "name": "热搜列表(简略)",
+        "explain": "说明 : 调用此接口,可获取热门搜索列表",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/search/hot/detail": {
+        "name": "热搜列表(详细)",
+        "explain": "说明 : 调用此接口,可获取热门搜索列表",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/search/suggest": {
+        "name": "搜索建议",
+        "explain": "说明 : 调用此接口 , 传入搜索关键词可获得搜索建议 , 搜索结果同时包含单曲 , 歌手 , 歌单信息",
+        "example": [
+            {
+                "query": {
+                    "keywords": "海阔天空"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "keywords": "海阔天空",
+                    "type": "mobile"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/search/multimatch": {
+        "name": "搜索多重匹配",
+        "explain": "说明 : 调用此接口 , 传入搜索关键词可获得搜索结果",
+        "example": [
+            {
+                "query": {
+                    "keywords": "海阔天空"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/playlist/delete": {
+        "name": "删除歌单",
+        "explain": "说明 : 调用此接口 , 传入歌单 id 可删除歌单",
+        "example": [
+            {
+                "query": {
+                    "id": "2947311456"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "id": "5013464397,5013427772"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/playlist/subscribe": {
+        "name": "收藏/取消收藏歌单",
+        "explain": "说明 : 调用此接口 , 传入类型和歌单 id 可收藏歌单或者取消收藏歌单",
+        "example": [
+            {
+                "query": {
+                    "t": "1",
+                    "id": "106697785"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "t": "2",
+                    "id": "106697785"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/playlist/subscribers": {
+        "name": "歌单收藏者",
+        "explain": "说明 : 调用此接口 , 传入歌单 id 可获取歌单的所有收藏者",
+        "example": [
+            {
+                "query": {
+                    "id": "544215255",
+                    "limit": "30"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/playlist/track/add": {
+        "name": "收藏视频到视频歌单",
+        "explain": "说明 : 调用此接口 , 可收藏视频到视频歌单 ( 需要登录 )",
+        "example": [
+            {
+                "query": {
+                    "pid": "5271999357",
+                    "ids": "186041"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/playlist/track/delete": {
+        "name": "删除视频歌单里的视频",
+        "explain": "说明 : 调用此接口 , 可删除视频歌单里的视频 ( 需要登录 )\n",
+        "example": [
+            {
+                "query": {
+                    "pid": "5271999357",
+                    "ids": "186041"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/playlist/video/recent": {
+        "name": "最近播放的视频",
+        "explain": "说明 : 调用此接口 , 可获取最近播放的视频 ( 需要登录 )",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/lyric": {
+        "name": "获取歌词",
+        "explain": "说明 : 调用此接口 , 传入音乐 id 可获得对应音乐的歌词 ( 不需要登录 )",
+        "example": [
+            {
+                "query": {
+                    "id": "33894312"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/lyric/new": {
+        "name": "获取逐字歌词",
+        "explain": "说明 : 此接口的 ",
+        "example": [
+            {
+                "query": {
+                    "id": "1824020871"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/top/song": {
+        "name": "新歌速递",
+        "explain": "说明 : 调用此接口 , 可获取新歌速递",
+        "example": [
+            {
+                "query": {
+                    "type": "96"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/comment/music": {
+        "name": "歌曲评论",
+        "explain": "说明 : 调用此接口 , 传入音乐 id 和 limit 参数 , 可获得该音乐的所有评论 ( 不需要登录 )",
+        "example": [
+            {
+                "query": {
+                    "id": "186016",
+                    "limit": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/comment/floor": {
+        "name": "楼层评论",
+        "explain": "说明 : 调用此接口 , 传入资源 parentCommentId 和资源类型 type 和资源 id 参数, 可获得该资源的歌曲楼层评论",
+        "example": [
+            {
+                "query": {
+                    "parentCommentId": "1438569889",
+                    "id": "29764564",
+                    "type": "0"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/comment/album": {
+        "name": "专辑评论",
+        "explain": "说明 : 调用此接口 , 传入音乐 id 和 limit 参数 , 可获得该专辑的所有评论 ( 不需要\n登录 )",
+        "example": [
+            {
+                "query": {
+                    "id": "32311"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/comment/playlist": {
+        "name": "歌单评论",
+        "explain": "说明 : 调用此接口 , 传入音乐 id 和 limit 参数 , 可获得该歌单的所有评论 ( 不需要\n登录 )",
+        "example": [
+            {
+                "query": {
+                    "id": "705123491"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/comment/mv": {
+        "name": "mv 评论",
+        "explain": "说明 : 调用此接口 , 传入音乐 id 和 limit 参数 , 可获得该 mv 的所有评论 ( 不需要\n登录 )",
+        "example": [
+            {
+                "query": {
+                    "id": "5436712"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/comment/dj": {
+        "name": "电台节目评论",
+        "explain": "说明 : 调用此接口 , 传入音乐 id 和 limit 参数 , 可获得该 电台节目 的所有评论 (\n不需要登录 )",
+        "example": [
+            {
+                "query": {
+                    "id": "794062371"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/comment/video": {
+        "name": "视频评论",
+        "explain": "说明 : 调用此接口 , 传入音乐 id 和 limit 参数 , 可获得该 视频 的所有评论 (\n不需要登录 )",
+        "example": [
+            {
+                "query": {
+                    "id": "89ADDE33C0AAE8EC14B99F6750DB954D"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/comment/hot": {
+        "name": "热门评论",
+        "explain": "说明 : 调用此接口 , 传入 type, 资源 id 可获得对应资源热门评论 ( 不需要登录 )",
+        "example": [
+            {
+                "query": {
+                    "id": "186016",
+                    "type": "0"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/comment/new": {
+        "name": "新版评论接口",
+        "explain": "说明 : 调用此接口 , 传入资源类型和资源 id,以及排序方式,可获取对应资源的评论",
+        "example": [
+            {
+                "query": {
+                    "type": "0",
+                    "id": "1407551413",
+                    "sortType": "3"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "type": "0",
+                    "id": "1407551413",
+                    "sortType": "3",
+                    "cursor": "1602072870260",
+                    "pageSize": "20",
+                    "pageNo": "2"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/comment/like": {
+        "name": "给评论点赞",
+        "explain": "说明 : 调用此接口 , 传入 type, 资源 id, 和评论 id cid 和 是否点赞参数 t 即可给对\n应评论点赞 ( 需要登录 )",
+        "example": [
+            {
+                "query": {
+                    "id": "29178366",
+                    "cid": "12840183",
+                    "t": "1",
+                    "type": "0"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/hug/comment": {
+        "name": "抱一抱评论",
+        "explain": "说明 : 调用此接口,可抱一抱评论",
+        "example": [
+            {
+                "query": {
+                    "uid": "285516405",
+                    "cid": "1167145843",
+                    "sid": "863481066"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/comment/hug/list": {
+        "name": "评论抱一抱列表",
+        "explain": "说明 : 调用此接口,可获取评论抱一抱列表",
+        "example": [
+            {
+                "query": {
+                    "uid": "285516405",
+                    "cid": "1167145843",
+                    "sid": "863481066",
+                    "pageSize": "2",
+                    "page": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/banner": {
+        "name": "banner",
+        "explain": "说明 : 调用此接口 , 可获取 banner( 轮播图 ) 数据",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            },
+            {
+                "query": {
+                    "type": "2"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/resource/like": {
+        "name": "资源点赞( MV,电台,视频)",
+        "explain": "说明 : 调用此接口 , 可对 MV,电台,视频点赞",
+        "example": [
+            {
+                "query": {
+                    "t": "1",
+                    "type": "1",
+                    "id": "5436712"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/playlist/mylike": {
+        "name": "获取点赞过的视频",
+        "explain": "说明 : 调用此接口, 可获取获取点赞过的视频",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/song/detail": {
+        "name": "获取歌曲详情",
+        "explain": "说明 : 调用此接口 , 传入音乐 id(支持多个 id, 用 ",
+        "example": [
+            {
+                "query": {
+                    "ids": "347230"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "ids": "347230,347231"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/album": {
+        "name": "获取专辑内容",
+        "explain": "说明 : 调用此接口 , 传入专辑 id, 可获得专辑内容",
+        "example": [
+            {
+                "query": {
+                    "id": "32311"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/album/detail/dynamic": {
+        "name": "专辑动态信息",
+        "explain": "说明 : 调用此接口 , 传入专辑 id, 可获得专辑动态信息,如是否收藏,收藏数,评论数,分享数",
+        "example": [
+            {
+                "query": {
+                    "id": "32311"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/album/sub": {
+        "name": "收藏/取消收藏专辑",
+        "explain": "说明 : 调用此接口,可收藏/取消收藏专辑",
+        "example": [
+            {
+                "query": {
+                    "t": "1"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "t": "0"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/album/sublist": {
+        "name": "获取已收藏专辑列表",
+        "explain": "说明 : 调用此接口 , 可获得已收藏专辑列表",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/artists": {
+        "name": "获取歌手单曲",
+        "explain": "说明 : 调用此接口 , 传入歌手 id, 可获得歌手部分信息和热门歌曲",
+        "example": [
+            {
+                "query": {
+                    "id": "6452"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/artist/mv": {
+        "name": "获取歌手 mv",
+        "explain": "说明 : 调用此接口 , 传入歌手 id, 可获得歌手 mv 信息 , 具体 mv 播放地址可调\n用",
+        "example": [
+            {
+                "query": {
+                    "id": "6452"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/artist/album": {
+        "name": "获取歌手专辑",
+        "explain": "说明 : 调用此接口 , 传入歌手 id, 可获得歌手专辑内容",
+        "example": [
+            {
+                "query": {
+                    "id": "6452",
+                    "limit": "5"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/artist/desc": {
+        "name": "获取歌手描述",
+        "explain": "说明 : 调用此接口 , 传入歌手 id, 可获得歌手描述",
+        "example": [
+            {
+                "query": {
+                    "id": "6452"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/artist/detail": {
+        "name": "获取歌手详情",
+        "explain": "说明 : 调用此接口 , 传入歌手 id, 可获得获取歌手详情",
+        "example": [
+            {
+                "query": {
+                    "id": "11972054"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/simi/artist": {
+        "name": "获取相似歌手",
+        "explain": "说明 : 调用此接口 , 传入歌手 id, 可获得相似歌手",
+        "example": [
+            {
+                "query": {
+                    "id": "6452"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/simi/playlist": {
+        "name": "获取相似歌单",
+        "explain": "说明 : 调用此接口 , 传入歌曲 id, 可获得相似歌单",
+        "example": [
+            {
+                "query": {
+                    "id": "347230"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/simi/mv": {
+        "name": "相似 mv",
+        "explain": "说明 : 调用此接口 , 传入 ",
+        "example": [
+            {
+                "query": {
+                    "mvid": "5436712"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/simi/song": {
+        "name": "获取相似音乐",
+        "explain": "说明 : 调用此接口 , 传入歌曲 id, 可获得相似歌曲",
+        "example": [
+            {
+                "query": {
+                    "id": "347230"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/simi/user": {
+        "name": "获取最近 5 个听了这首歌的用户",
+        "explain": "说明 : 调用此接口 , 传入歌曲 id, 最近 5 个听了这首歌的用户",
+        "example": [
+            {
+                "query": {
+                    "id": "347230"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/recommend/resource": {
+        "name": "获取每日推荐歌单",
+        "explain": "说明 : 调用此接口 , 可获得每日推荐歌单 ( 需要登录 )",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/recommend/songs": {
+        "name": "获取每日推荐歌曲",
+        "explain": "说明 : 调用此接口 , 可获得每日推荐歌曲 ( 需要登录 )",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/recommend/songs/dislike": {
+        "name": "每日推荐歌曲-不感兴趣",
+        "explain": "说明 : 日推歌曲标记为不感兴趣( 同时会返回一个新推荐歌曲, 需要登录 )",
+        "example": [
+            {
+                "query": {
+                    "id": "168091"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/history/recommend/songs": {
+        "name": "获取历史日推可用日期列表",
+        "explain": "说明 : 调用此接口 , 可获得历史日推可用日期列表",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/history/recommend/songs/detail": {
+        "name": "获取历史日推详情数据",
+        "explain": "说明 : 调用此接口 ,传入当日日期, 可获得当日历史日推数据",
+        "example": [
+            {
+                "query": {
+                    "date": "2020-06-21"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/personal_fm": {
+        "name": "私人 FM",
+        "explain": "说明 : 私人 FM( 需要登录 )",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/like": {
+        "name": "喜欢音乐",
+        "explain": "说明 : 调用此接口 , 传入音乐 id, 可喜欢该音乐",
+        "example": [
+            {
+                "query": {
+                    "id": "347230"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/likelist": {
+        "name": "喜欢音乐列表",
+        "explain": "说明 : 调用此接口 , 传入用户 id, 可获取已喜欢音乐 id 列表(id 数组)",
+        "example": [
+            {
+                "query": {
+                    "uid": "32953014"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/top/album": {
+        "name": "新碟上架",
+        "explain": "说明 : 调用此接口 , 可获取新碟上架列表 , 如需具体音乐信息需要调用获取专辑列表接\n口 ",
+        "example": [
+            {
+                "query": {
+                    "offset": "0",
+                    "limit": "30",
+                    "year": "2019",
+                    "month": "6"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/album/new": {
+        "name": "全部新碟",
+        "explain": "说明 : 登录后调用此接口 ,可获取全部新碟",
+        "example": [
+            {
+                "query": {
+                    "area": "KR",
+                    "limit": "10"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/album/newest": {
+        "name": "最新专辑",
+        "explain": "说明 : 调用此接口 ，获取云音乐首页新碟上架数据",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/scrobble": {
+        "name": "听歌打卡",
+        "explain": "说明 : 调用此接口 , 传入音乐 id, 来源 id，歌曲时间 time，更新听歌排行数据",
+        "example": [
+            {
+                "query": {
+                    "id": "518066366",
+                    "sourceid": "36780169",
+                    "time": "291"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/top/artists": {
+        "name": "热门歌手",
+        "explain": "说明 : 调用此接口 , 可获取热门歌手数据",
+        "example": [
+            {
+                "query": {
+                    "offset": "0",
+                    "limit": "30"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/mv/all": {
+        "name": "全部 mv",
+        "explain": "说明 : 调用此接口 , 可获取全部 mv",
+        "example": [
+            {
+                "query": {
+                    "area": "港台"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/mv/first": {
+        "name": "最新 mv",
+        "explain": "说明 : 调用此接口 , 可获取最新 mv",
+        "example": [
+            {
+                "query": {
+                    "limit": "10"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/mv/exclusive/rcmd": {
+        "name": "网易出品 mv",
+        "explain": "说明 : 调用此接口 , 可获取网易出品 mv",
+        "example": [
+            {
+                "query": {
+                    "limit": "10"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/personalized/mv": {
+        "name": "推荐 mv",
+        "explain": "说明 : 调用此接口 , 可获取推荐 mv",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/personalized": {
+        "name": "推荐歌单",
+        "explain": "说明 : 调用此接口 , 可获取推荐歌单",
+        "example": [
+            {
+                "query": {
+                    "limit": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/personalized/newsong": {
+        "name": "推荐新音乐",
+        "explain": "说明 : 调用此接口 , 可获取推荐新音乐",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/personalized/djprogram": {
+        "name": "推荐电台",
+        "explain": "说明 : 调用此接口 , 可获取推荐电台",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/program/recommend": {
+        "name": "推荐节目",
+        "explain": "说明 : 调用此接口 , 可获取推荐电台",
+        "example": [
+            {
+                "query": {
+                    "limit": "5"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/personalized/privatecontent": {
+        "name": "独家放送(入口列表)",
+        "explain": "说明 : 调用此接口 , 可获取独家放送",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/personalized/privatecontent/list": {
+        "name": "独家放送列表",
+        "explain": "说明 : 调用此接口 , 可获取独家放送列表",
+        "example": [
+            {
+                "query": {
+                    "limit": "1",
+                    "offset": "2"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/top/mv": {
+        "name": "mv 排行",
+        "explain": "说明 : 调用此接口 , 可获取 mv 排行",
+        "example": [
+            {
+                "query": {
+                    "limit": "10"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/mv/detail": {
+        "name": "获取 mv 数据",
+        "explain": "说明 : 调用此接口 , 传入 mvid ( 在搜索音乐的时候传 type=1004 获得 ) , 可获取对应\nMV 数据 , 数据包含 mv 名字 , 歌手 , 发布时间 , mv 视频地址等数据 , 其中 mv 视频\n网易做了防盗链处理 , 可能不能直接播放 , 需要播放的话需要调用 ' mv 地址' 接口",
+        "example": [
+            {
+                "query": {
+                    "mvid": "5436712"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/mv/detail/info": {
+        "name": "获取 mv 点赞转发评论数数据",
+        "explain": "说明 : 调用此接口 , 传入 mvid ( 在搜索音乐的时候传 type=1004 获得 ) , 可获取对应\nMV 点赞转发评论数数据",
+        "example": [
+            {
+                "query": {
+                    "mvid": "5436712"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/video/group/list": {
+        "name": "获取视频标签列表",
+        "explain": "说明 : 调用此接口 , 可获取视频标签列表",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/video/category/list": {
+        "name": "获取视频分类列表",
+        "explain": "说明 : 调用此接口 , 可获取视频分类列表",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/video/group": {
+        "name": "获取视频标签/分类下的视频",
+        "explain": "说明 : 调用此接口 , 传入标签/分类",
+        "example": [
+            {
+                "query": {
+                    "id": "9104"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/video/timeline/all": {
+        "name": "获取全部视频列表",
+        "explain": "说明 : 调用此接口,可获取视频分类列表,分页参数只能传入 offset",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/video/timeline/recommend": {
+        "name": "获取推荐视频",
+        "explain": "说明 : 调用此接口, 可获取推荐视频,分页参数只能传入 offset",
+        "example": [
+            {
+                "query": {
+                    "offset": "10"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/related/allvideo": {
+        "name": "相关视频",
+        "explain": "说明 : 调用此接口 , 可获取相关视频",
+        "example": [
+            {
+                "query": {
+                    "id": "89ADDE33C0AAE8EC14B99F6750DB954D"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/video/detail": {
+        "name": "视频详情",
+        "explain": "说明 : 调用此接口 , 可获取视频详情",
+        "example": [
+            {
+                "query": {
+                    "id": "89ADDE33C0AAE8EC14B99F6750DB954D"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/video/detail/info": {
+        "name": "获取视频点赞转发评论数数据",
+        "explain": "说明 : 调用此接口 , 传入 vid ( 视频 id ) , 可获取对应视频点赞转发评论数数据\n",
+        "example": [
+            {
+                "query": {
+                    "vid": "89ADDE33C0AAE8EC14B99F6750DB954D"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/video/url": {
+        "name": "获取视频播放地址",
+        "explain": "说明 : 调用此接口 , 传入视频 id,可获取视频播放地址",
+        "example": [
+            {
+                "query": {
+                    "id": "89ADDE33C0AAE8EC14B99F6750DB954D"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/toplist": {
+        "name": "所有榜单",
+        "explain": "说明 : 调用此接口,可获取所有榜单\n",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/toplist/detail": {
+        "name": "所有榜单内容摘要",
+        "explain": "说明 : 调用此接口,可获取所有榜单内容摘要",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/toplist/artist": {
+        "name": "歌手榜",
+        "explain": "说明 : 调用此接口 , 可获取排行榜中的歌手榜",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/user/cloud": {
+        "name": "云盘",
+        "explain": "说明 : 登录后调用此接口 , 可获取云盘数据 , 获取的数据没有对应 url, 需要再调用一\n次 ",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/user/cloud/detail": {
+        "name": "云盘数据详情",
+        "explain": "说明 : 登录后调用此接口 , 传入云盘歌曲 id，可获取云盘数据详情",
+        "example": [
+            {
+                "query": {
+                    "id": "5374627"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/user/cloud/del": {
+        "name": "云盘歌曲删除",
+        "explain": "说明 : 登录后调用此接口 , 可删除云盘歌曲",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/cloud": {
+        "name": "云盘上传",
+        "explain": "说明 : 登录后调用此接口,使用",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/cloud/match": {
+        "name": "云盘歌曲信息匹配纠正",
+        "explain": "说明 : 登录后调用此接口,可对云盘歌曲信息匹配纠正,如需取消匹配,asid 需要传 0",
+        "example": [
+            {
+                "query": {
+                    "uid": "32953014",
+                    "sid": "aaa",
+                    "asid": "bbb"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "uid": "32953014",
+                    "sid": "bbb",
+                    "asid": "0"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/dj/banner": {
+        "name": "电台 banner",
+        "explain": "说明 : 调用此接口,可获取电台 banner",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/dj/personalize/recommend": {
+        "name": "电台个性推荐",
+        "explain": "说明 : 调用此接口,可获取电台个性推荐列表\n",
+        "example": [
+            {
+                "query": {
+                    "limit": "5"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/dj/subscriber": {
+        "name": "电台订阅者列表",
+        "explain": "说明 : 调用此接口,可获取电台订阅者列表\n",
+        "example": [
+            {
+                "query": {
+                    "id": "335425050"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "id": "335425050",
+                    "time": "1602761825390"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/user/audio": {
+        "name": "用户电台",
+        "explain": "说明 : 调用此接口, 传入用户 id 可获取用户创建的电台",
+        "example": [
+            {
+                "query": {
+                    "uid": "32953014"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/dj/hot": {
+        "name": "热门电台",
+        "explain": "说明 : 调用此接口,可获取热门电台",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/dj/program/toplist": {
+        "name": "电台 - 节目榜",
+        "explain": "说明 : 登录后调用此接口 , 可获得电台节目榜",
+        "example": [
+            {
+                "query": {
+                    "limit": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/dj/toplist/pay": {
+        "name": "电台 - 付费精品",
+        "explain": "说明 : 调用此接口,可获取付费精品电台",
+        "example": [
+            {
+                "query": {
+                    "limit": "30"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/dj/program/toplist/hours": {
+        "name": "电台 - 24 小时节目榜",
+        "explain": "说明 : 调用此接口,可获取 24 小时节目榜",
+        "example": [
+            {
+                "query": {
+                    "limit": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/dj/toplist/hours": {
+        "name": "电台 - 24 小时主播榜",
+        "explain": "说明 : 调用此接口,可获取 24 小时主播榜",
+        "example": [
+            {
+                "query": {
+                    "limit": "30"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/dj/toplist/newcomer": {
+        "name": "电台 - 主播新人榜",
+        "explain": "说明 : 调用此接口,可获取主播新人榜",
+        "example": [
+            {
+                "query": {
+                    "limit": "30"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/dj/toplist/popular": {
+        "name": "电台 - 最热主播榜",
+        "explain": "说明 : 调用此接口,可获取最热主播榜",
+        "example": [
+            {
+                "query": {
+                    "limit": "30"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/dj/toplist": {
+        "name": "电台 - 新晋电台榜/热门电台榜",
+        "explain": "说明 : 登录后调用此接口 , 可获得新晋电台榜/热门电台榜",
+        "example": [
+            {
+                "query": {
+                    "type": "hot"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "type": "new",
+                    "limit": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/dj/radio/hot": {
+        "name": "电台 - 类别热门电台",
+        "explain": "电台 - 类别热门电台",
+        "example": [
+            {
+                "query": {
+                    "cateId": "2001"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "cateId": "10002"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/dj/recommend": {
+        "name": "电台 - 推荐",
+        "explain": "说明 : 登录后调用此接口 , 可获得推荐电台",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/dj/catelist": {
+        "name": "电台 - 分类",
+        "explain": "说明 : 登录后调用此接口 , 可获得电台类型",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/dj/recommend/type": {
+        "name": "电台 - 分类推荐",
+        "explain": "说明 : 登录后调用此接口 , 传入分类,可获得对应类型电台列表",
+        "example": [
+            {
+                "query": {
+                    "type": "1"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "type": "2001"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/dj/sub": {
+        "name": "电台 - 订阅",
+        "explain": "说明 : 登录后调用此接口 , 传入",
+        "example": [
+            {
+                "query": {
+                    "rid": "336355127",
+                    "t": "1"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "rid": "336355127",
+                    "t": "0"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/dj/sublist": {
+        "name": "电台的订阅列表",
+        "explain": "说明 : 登录后调用此接口 , 可获取订阅的电台列表",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/dj/paygift": {
+        "name": "电台 - 付费精选",
+        "explain": "说明 : 可以获取付费精选的电台列表 , 传入 ",
+        "example": [
+            {
+                "query": {
+                    "limit": "10",
+                    "offset": "20"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/dj/category/excludehot": {
+        "name": "电台 - 非热门类型",
+        "explain": "说明 : 登录后调用此接口, 可获得电台非热门类型",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/dj/category/recommend": {
+        "name": "电台 - 推荐类型",
+        "explain": "说明 : 登录后调用此接口, 可获得电台推荐类型",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/dj/today/perfered": {
+        "name": "电台 - 今日优选",
+        "explain": "说明 : 登录后调用此接口, 可获得电台今日优选",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/dj/detail": {
+        "name": "电台 - 详情",
+        "explain": "说明 : 登录后调用此接口 , 传入",
+        "example": [
+            {
+                "query": {
+                    "rid": "336355127"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/dj/program": {
+        "name": "电台 - 节目",
+        "explain": "说明 : 登录后调用此接口 , 传入",
+        "example": [
+            {
+                "query": {
+                    "rid": "336355127",
+                    "limit": "40"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/dj/program/detail": {
+        "name": "电台 - 节目详情",
+        "explain": "说明 : 调用此接口传入电台节目 id,可获得电台节目详情",
+        "example": [
+            {
+                "query": {
+                    "id": "1367665101"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/msg/private": {
+        "name": "通知 - 私信",
+        "explain": "说明 : 登录后调用此接口 ,可获取私信",
+        "example": [
+            {
+                "query": {
+                    "limit": "3"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/send/song": {
+        "name": "发送私信(带歌曲)",
+        "explain": "说明 : 登录后调用此接口 , 传入用户 id 和要发送的信息,音乐 id, 可以发送音乐私信,返回内容为历史私信",
+        "example": [
+            {
+                "query": {
+                    "user_ids": "1",
+                    "id": "351318",
+                    "msg": "测试"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/send/album": {
+        "name": "发送私信(带专辑)",
+        "explain": "说明 : 登录后调用此接口 , 传入用户 id 和要发送的信息,专辑 id, 可以发送专辑私信,返回内容为消息 id",
+        "example": [
+            {
+                "query": {
+                    "user_ids": "1",
+                    "id": "351318",
+                    "msg": "测试"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/msg/recentcontact": {
+        "name": "最近联系人",
+        "explain": "说明 : 登录后调用此接口 ,可获取最接近联系人",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/msg/private/history": {
+        "name": "私信内容",
+        "explain": "说明 : 登录后调用此接口 , 可获取私信内容",
+        "example": [
+            {
+                "query": {
+                    "uid": "9003"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/msg/comments": {
+        "name": "通知 - 评论",
+        "explain": "说明 : 登录后调用此接口 ,可获取评论",
+        "example": [
+            {
+                "query": {
+                    "uid": "32953014"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/msg/forwards": {
+        "name": "通知 - @我",
+        "explain": "说明 : 登录后调用此接口 ,可获取@我数据",
+        "example": [
+            {
+                "query": {
+                    "limit": "3"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/msg/notices": {
+        "name": "通知 - 通知",
+        "explain": "说明 : 登录后调用此接口 ,可获取通知",
+        "example": [
+            {
+                "query": {
+                    "limit": "3"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/setting": {
+        "name": "设置",
+        "explain": "说明 : 登录后调用此接口 ,可获取用户设置",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/album/list": {
+        "name": "数字专辑-新碟上架",
+        "explain": "说明 : 调用此接口 ,可获取数字专辑-新碟上架",
+        "example": [
+            {
+                "query": {
+                    "limit": "10"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/album/songsaleboard": {
+        "name": "数字专辑&数字单曲-榜单",
+        "explain": "说明 : 调用此接口 ,可获取数字专辑&数字单曲-榜单",
+        "example": [
+            {
+                "query": {
+                    "type": "year",
+                    "year": "2020",
+                    "albumType": "0"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/album/list/style": {
+        "name": "数字专辑-语种风格馆",
+        "explain": "说明 : 调用此接口 ,可获取语种风格馆数字专辑列表",
+        "example": [
+            {
+                "query": {
+                    "area": "Z_H",
+                    "offset": "2"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/digitalAlbum/detail": {
+        "name": "数字专辑详情",
+        "explain": "说明 : 调用此接口 , 传入专辑 id, 可获取数字专辑信息",
+        "example": [
+            {
+                "query": {
+                    "id": "120605500"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/digitalAlbum/purchased": {
+        "name": "我的数字专辑",
+        "explain": "说明 : 登录后调用此接口 ,可获取我的数字专辑",
+        "example": [
+            {
+                "query": {
+                    "limit": "10"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/digitalAlbum/ordering": {
+        "name": "购买数字专辑",
+        "explain": "说明 : 登录后调用此接口 ,可获取购买数字专辑的地址,把地址生成二维码后,可扫描购买专辑",
+        "example": [
+            {
+                "query": {
+                    "id": "86286082",
+                    "payment": "3",
+                    "quantity": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/calendar": {
+        "name": "音乐日历",
+        "explain": "说明 : 登录后调用此接口,传入开始和结束时间,可获取音乐日历",
+        "example": [
+            {
+                "query": {
+                    "startTime": "1606752000000",
+                    "endTime": "1609430399999"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/yunbei": {
+        "name": "云贝",
+        "explain": "说明 : 登录后调用此接口可获取云贝签到信息(连续签到天数,第二天全部可获得的云贝)",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/yunbei/today": {
+        "name": "云贝今日签到信息",
+        "explain": "说明 : 登录后调用此接口可获取云贝今日签到信息(今日签到获取的云贝数)",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/yunbei/sign": {
+        "name": "云贝签到",
+        "explain": "说明 : 登录后调用此接口可进行云贝签到",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/yunbei/info": {
+        "name": "云贝账户信息",
+        "explain": "说明 :登录后调用此接口可获取云贝账户信息(账户云贝数)",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/yunbei/tasks": {
+        "name": "云贝所有任务",
+        "explain": "说明 :登录后调用此接口可获取云贝所有任务",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/yunbei/tasks/todo": {
+        "name": "云贝 todo 任务",
+        "explain": "说明 :登录后调用此接口可获取云贝 todo 任务",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/yunbei/task/finish": {
+        "name": "云贝完成任务",
+        "explain": "云贝完成任务",
+        "example": [
+            {
+                "query": {
+                    "userTaskId": "5146243240",
+                    "depositCode": "0"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/yunbei/tasks/receipt": {
+        "name": "云贝收入",
+        "explain": "说明 :登录后调用此接口可获取云贝收入",
+        "example": [
+            {
+                "query": {
+                    "limit": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/yunbei/tasks/expense": {
+        "name": "云贝支出",
+        "explain": "说明 :登录后调用此接口可获取云贝支出",
+        "example": [
+            {
+                "query": {
+                    "limit": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/artist/new/song": {
+        "name": "关注歌手新歌",
+        "explain": "说明 :登录后调用此接口可获取关注歌手新歌",
+        "example": [
+            {
+                "query": {
+                    "limit": "1"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "limit": "1",
+                    "before": "1602777625000"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/artist/new/mv": {
+        "name": "关注歌手新 MV",
+        "explain": "说明 :登录后调用此接口可获取关注歌手新 MV",
+        "example": [
+            {
+                "query": {
+                    "limit": "1"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "limit": "1",
+                    "before": "1602777625000"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/yunbei/rcmd/song": {
+        "name": "云贝推歌",
+        "explain": "说明 : 登录后调用此接口 , 传入歌曲 id, 可以进行云贝推歌",
+        "example": [
+            {
+                "query": {
+                    "id": "65528"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "id": "65528",
+                    "reason": "人间好声音推荐给你听"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/yunbei/rcmd/song/history": {
+        "name": "云贝推歌历史记录",
+        "explain": "说明 : 登录后调用此接口 , 可以获得云贝推歌历史记录",
+        "example": [
+            {
+                "query": {
+                    "size": "10"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/song/purchased": {
+        "name": "已购单曲",
+        "explain": "说明 :登录后调用此接口可获取已购买的单曲",
+        "example": [
+            {
+                "query": {
+                    "limit": "10"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/mlog/url": {
+        "name": "获取 mlog 播放地址",
+        "explain": "说明 : 调用此接口 , 传入 mlog id, 可获取 mlog 播放地址",
+        "example": [
+            {
+                "query": {
+                    "id": "a1qOVPTWKS1ZrK8"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/mlog/to/video": {
+        "name": "将 mlog id 转为视频 id",
+        "explain": "说明 : 调用此接口 , 传入 mlog id, 可获取 video id，然后通过",
+        "example": [
+            {
+                "query": {
+                    "id": "a1qOVPTWKS1ZrK8"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/vip/growthpoint": {
+        "name": "vip 成长值",
+        "explain": "说明 : 登录后调用此接口 , 可获取当前会员成长值",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/vip/growthpoint/details": {
+        "name": "vip 成长值获取记录",
+        "explain": "说明 :登录后调用此接口可获取会员成长值领取记录",
+        "example": [
+            {
+                "query": {
+                    "limit": "10"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/vip/tasks": {
+        "name": "vip 任务",
+        "explain": "说明 : 登录后调用此接口 , 可获取会员任务",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/vip/growthpoint/get": {
+        "name": "领取 vip 成长值",
+        "explain": "说明 : 登录后调用此接口 , 可获取已完成的会员任务的成长值奖励",
+        "example": [
+            {
+                "query": {
+                    "ids": "7043206830_7"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "ids": "8613118351_1,8607552957_1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/artist/fans": {
+        "name": "歌手粉丝",
+        "explain": "说明 : 调用此接口 , 传入歌手 id, 可获取歌手粉丝\n",
+        "example": [
+            {
+                "query": {
+                    "id": "2116",
+                    "limit": "10",
+                    "offset": "0"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/artist/follow/count": {
+        "name": "歌手粉丝数量",
+        "explain": "说明 : 调用此接口 , 传入歌手 id, 可获取歌手粉丝数量",
+        "example": [
+            {
+                "query": {
+                    "id": "2116"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/digitalAlbum/sales": {
+        "name": "数字专辑销量",
+        "explain": "说明 : 调用此接口 , 传入专辑 id, 可获取数字专辑销量",
+        "example": [
+            {
+                "query": {
+                    "ids": "120605500"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "ids": "120605500,125080528"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/musician/data/overview": {
+        "name": "音乐人数据概况",
+        "explain": "说明 : 音乐人登录后调用此接口 , 可获取统计数据概况",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/musician/play/trend": {
+        "name": "音乐人播放趋势",
+        "explain": "说明 : 音乐人登录后调用此接口 , 可获取歌曲播放趋势",
+        "example": [
+            {
+                "query": {
+                    "startTime": "2021-05-24",
+                    "endTime": "2021-05-30"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/musician/tasks": {
+        "name": "音乐人任务",
+        "explain": "说明 : 音乐人登录后调用此接口 , 可获取音乐人任务。返回的数据中",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/musician/tasks/new": {
+        "name": "音乐人任务(新)",
+        "explain": "说明 : 音乐人登录后调用此接口 , 可获取音乐人任务。返回的数据中",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/musician/cloudbean": {
+        "name": "账号云豆数",
+        "explain": "说明 : 音乐人登录后调用此接口 , 可获取账号云豆数",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/musician/cloudbean/obtain": {
+        "name": "领取云豆",
+        "explain": "说明 : 音乐人登录后调用此接口 , 可领取已完成的音乐人任务的云豆奖励",
+        "example": [
+            {
+                "query": {
+                    "id": "7036416928",
+                    "period": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/vip/info": {
+        "name": "获取 VIP 信息",
+        "explain": "说明: 登录后调用此接口，可获取当前 VIP 信息。",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            },
+            {
+                "query": {
+                    "uid": "32953014"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/vip/info/v2": {
+        "name": "获取 VIP 信息(app端)",
+        "explain": "说明: 登录后调用此接口，可获取当前 VIP 信息。",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            },
+            {
+                "query": {
+                    "uid": "32953014"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/musician/sign": {
+        "name": "音乐人签到",
+        "explain": "说明: 音乐人登录后调用此接口，可以完成“登录音乐人中心”任务，然后通过",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/artist/video": {
+        "name": "获取歌手视频",
+        "explain": "说明 : 调用此接口 , 传入歌手 id, 可获得歌手视频",
+        "example": [
+            {
+                "query": {
+                    "id": "2116"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/record/recent/song": {
+        "name": "最近播放-歌曲",
+        "explain": "说明 : 调用此接口 , 可获得最近播放-歌曲",
+        "example": [
+            {
+                "query": {
+                    "limit": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/record/recent/video": {
+        "name": "最近播放-视频",
+        "explain": "说明 : 调用此接口 , 可获得最近播放-视频",
+        "example": [
+            {
+                "query": {
+                    "limit": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/record/recent/voice": {
+        "name": "最近播放-声音",
+        "explain": "说明 : 调用此接口 , 可获得最近播放-声音",
+        "example": [
+            {
+                "query": {
+                    "limit": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/record/recent/playlist": {
+        "name": "最近播放-歌单",
+        "explain": "说明 : 调用此接口 , 可获得最近播放-歌单",
+        "example": [
+            {
+                "query": {
+                    "limit": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/record/recent/album": {
+        "name": "最近播放-专辑",
+        "explain": "说明 : 调用此接口 , 可获得最近播放-专辑",
+        "example": [
+            {
+                "query": {
+                    "limit": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/record/recent/dj": {
+        "name": "最近播放-播客",
+        "explain": "说明 : 调用此接口 , 可获得最近播放-播客",
+        "example": [
+            {
+                "query": {
+                    "limit": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/signin/progress": {
+        "name": "签到进度",
+        "explain": "说明 : 调用此接口 , 可获得签到进度",
+        "example": [
+            {
+                "query": {
+                    "moduleId": "1207signin-1207signin"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/inner/version": {
+        "name": "内部版本接口",
+        "explain": "说明 : 调用此接口 , 可获得内部版本号(从package.json读取)",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/vip/timemachine": {
+        "name": "黑胶时光机",
+        "explain": "说明 : 调用此接口 , 可获得黑胶时光机数据",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            },
+            {
+                "query": {
+                    "startTime": "1638288000000",
+                    "endTime": "1640966399999",
+                    "limit": "10"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "startTime": "1609430400",
+                    "endTime": "1640966399999",
+                    "limit": "60"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/song/wiki/summary": {
+        "name": "音乐百科 - 简要信息",
+        "explain": "说明: 调用此接口可以获取歌曲的音乐百科简要信息",
+        "example": [
+            {
+                "query": {
+                    "id": "1958384591"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/sheet/list": {
+        "name": "乐谱列表",
+        "explain": "说明: 调用此接口可以获取歌曲的乐谱列表",
+        "example": [
+            {
+                "query": {
+                    "id": "1815684465"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/sheet/preview": {
+        "name": "乐谱内容",
+        "explain": "说明: 登录后调用此接口获取乐谱的内容",
+        "example": [
+            {
+                "query": {
+                    "id": "143190"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/style/list": {
+        "name": "曲风列表",
+        "explain": "说明: 调用此接口获取曲风列表及其对应的 ",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/style/preference": {
+        "name": "曲风偏好",
+        "explain": "说明: 登录后调用此接口获取我的曲风偏好",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/style/detail": {
+        "name": "曲风详情",
+        "explain": "说明: 调用此接口可以获取该曲风的描述信息",
+        "example": [
+            {
+                "query": {
+                    "tagId": "1000"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/style/song": {
+        "name": "曲风-歌曲",
+        "explain": "说明: 调用此接口可以获取该曲风对应的歌曲",
+        "example": [
+            {
+                "query": {
+                    "tagId": "1000"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "tagId": "1010",
+                    "sort": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/style/album": {
+        "name": "曲风-专辑",
+        "explain": "说明: 调用此接口可以获取该曲风对应的专辑",
+        "example": [
+            {
+                "query": {
+                    "tagId": "1000"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "tagId": "1010",
+                    "sort": "1"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/style/playlist": {
+        "name": "曲风-歌单",
+        "explain": "说明: 调用此接口可以获取该曲风对应的歌单",
+        "example": [
+            {
+                "query": {
+                    "tagId": "1000"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/style/artist": {
+        "name": "曲风-歌手",
+        "explain": "说明: 调用此接口可以获取该曲风对应的歌手",
+        "example": [
+            {
+                "query": {
+                    "tagId": "1000"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/get/userids": {
+        "name": "根据nickname获取userid",
+        "explain": "说明: 使用此接口,传入用户昵称,可获取对应的用户id,支持批量获取,多个昵称用",
+        "example": [
+            {
+                "query": {
+                    "nicknames": "binaryify"
+                },
+                "result": {}
+            },
+            {
+                "query": {
+                    "nicknames": "binaryify;binaryify2"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/ugc/album/get": {
+        "name": "专辑简要百科信息",
+        "explain": "说明: 登录后调用此接口,使用此接口,传入专辑id,可获取对应的专辑简要百科信息",
+        "example": [
+            {
+                "query": {
+                    "id": "168223858"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/ugc/song/get": {
+        "name": "歌曲简要百科信息",
+        "explain": "说明: 登录后调用此接口,使用此接口,传入歌曲id,可获取对应的歌曲简要百科信息",
+        "example": [
+            {
+                "query": {
+                    "id": "2058263032"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/ugc/artist/get": {
+        "name": "歌手简要百科信息",
+        "explain": "说明: 登录后调用此接口,使用此接口,传入歌手id,可获取对应的歌手简要百科信息",
+        "example": [
+            {
+                "query": {
+                    "id": "15396"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/ugc/mv/get": {
+        "name": "mv简要百科信息",
+        "explain": "说明: 登录后调用此接口,使用此接口,传入mv id,可获取对应的mv简要百科信息",
+        "example": [
+            {
+                "query": {
+                    "id": "14572641"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/ugc/artist/search": {
+        "name": "搜索歌手",
+        "explain": "说明: 登录后调用此接口,使用此接口,传入歌手名关键字或者歌手id,可获取搜索到的歌手信息",
+        "example": [
+            {
+                "query": {
+                    "keyword": "sasakure"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "/ugc/detail": {
+        "name": "用户贡献内容",
+        "explain": "说明: 登录后调用此接口,使用此接口,可获取当前登录用户贡献内容",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/ugc/user/devote": {
+        "name": "用户贡献条目、积分、云贝数量",
+        "explain": "说明: 登录后调用此接口,使用此接口,可获取当前登录用户贡献条目、积分、云贝数量",
+        "example": [
+            {
+                "query": {},
+                "result": {}
+            }
+        ]
+    },
+    "/summary/annual": {
+        "name": "年度听歌报告",
+        "explain": "说明: 登录后调用此接口,使用此接口,可获取当前登录用户年度听歌报告，目前支持2017-2022年的报告",
+        "example": [
+            {
+                "query": {
+                    "year": "2022"
+                },
+                "result": {}
+            }
+        ]
+    },
+    "settings": {
+        "cookie": "MUSIC_R_T=1579622000495; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/weapi/clientlog; HTTPOnly;MUSIC_A_T=1579621885297; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/wapi/clientlog; HTTPOnly;MUSIC_R_T=1579622000495; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/wapi/clientlog; HTTPOnly;MUSIC_R_T=1579622000495; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/neapi/feedback; HTTPOnly;__csrf=f2479af05431c9fe000004d74b9eb43c; Max-Age=1296010; Expires=Wed, 20 Dec 2023 15:57:49 GMT; Path=/;;MUSIC_U=00F5809E26613FA34E24E56B87BB2D71C716ECA62F1D492FDDB5915792654A9C101BE0AFDDFB7A79A405394645D6A0BCCEF96AF99CD68BB226B3AD52F1A990A41E4D4E359E8FBE202B246A605453D0BA8EA9370E2CF943DC198B5ADF131DBD233495C69C0BA6B144FD3EB4A3D356B95B15FF8FA61D19A34DA56A980797377346706BD36CB666B2BA320AFF4E140BB208BBC6CBA15716BF7B98CB0A92EF1032735321FD39465B9E8B34E8C241A1BD5DA0C77501BF407AF6AA382C7B589AB18B92B856600EF1D81FC7A3E5B80339CC9DA04A0D32E85563B018CFDBEDC86F8972B6D78F6704AA10CEDBB7E43F3FC654D0D3EC885D09A503057B92912B28763893F0DDCE9995439D4E047867F8BDEB01C4B3C4C3717D3049C5A13BC16EF182455B02F3F9CA81185292BED1FD7493A07FCAB3B5676A7FD58F8BF4F5B09F752C6F235C034D297711FBE960A3CAF5504E62EF6547; Max-Age=15552000; Expires=Sun, 02 Jun 2024 15:57:39 GMT; Path=/; HTTPOnly;MUSIC_A_T=1579621885297; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/weapi/clientlog; HTTPOnly;MUSIC_A_T=1579621885297; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/neapi/feedback; HTTPOnly;MUSIC_A_T=1579621885297; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/openapi/clientlog; HTTPOnly;MUSIC_R_T=1579622000495; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/eapi/feedback; HTTPOnly;MUSIC_R_T=1579622000495; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/openapi/clientlog; HTTPOnly;MUSIC_R_T=1579622000495; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/api/clientlog; HTTPOnly;MUSIC_A_T=1579621885297; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/api/clientlog; HTTPOnly;MUSIC_R_T=1579622000495; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/wapi/feedback; HTTPOnly;MUSIC_R_T=1579622000495; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/eapi/clientlog; HTTPOnly;MUSIC_A_T=1579621885297; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/eapi/clientlog; HTTPOnly;MUSIC_A_T=1579621885297; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/wapi/feedback; HTTPOnly;MUSIC_R_T=1579622000495; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/neapi/clientlog; HTTPOnly;MUSIC_A_T=1579621885297; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/neapi/clientlog; HTTPOnly;MUSIC_SNS=; Max-Age=0; Expires=Tue, 05 Dec 2023 15:57:39 GMT; Path=/;MUSIC_A_T=1579621885297; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/weapi/feedback; HTTPOnly;MUSIC_A_T=1579621885297; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/api/feedback; HTTPOnly;MUSIC_A_T=1579621885297; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/eapi/feedback; HTTPOnly;MUSIC_R_T=1579622000495; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/api/feedback; HTTPOnly;MUSIC_R_T=1579622000495; Max-Age=2147483647; Expires=Sun, 23 Dec 2091 19:11:46 GMT; Path=/weapi/feedback; HTTPOnly",
+        "updateResult": true
+    }
+}

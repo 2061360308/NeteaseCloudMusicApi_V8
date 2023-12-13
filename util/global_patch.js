@@ -26,9 +26,8 @@ if (typeof window === "undefined") {
       Object.entries(queryString).forEach(function ([key, value]) {
         params[key] = value;
       });
-      console.log("来了个对象", params);
     } else {
-      console.log("来了个解析不了的", queryString);
+      console.log("来了个解析不了的~~~", queryString);
     }
 
     this.get = function (name) {
@@ -46,7 +45,6 @@ if (typeof window === "undefined") {
 
   function encodeURIComponent(str) {
     var result = "";
-    console.log("请求：", str);
 
     if (str !== undefined && str !== null) {
       for (var i = 0; i < str.length; i++) {

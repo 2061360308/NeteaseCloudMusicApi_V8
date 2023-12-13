@@ -1,0 +1,12 @@
+{
+    "code": 404,
+    "data": null,
+    "msg": "Not Found",
+    "others": {
+        "status": 401,
+        "body": {
+            "msg": "该资源无法分享",
+            "code": 401
+        }
+    }
+}

@@ -2,7 +2,7 @@
 
 import CryptoJS from 'crypto-js'
 
-export default async (query, request) => {
+export default (query, request) => {
   query.cookie.os = 'ios'
   query.cookie.appver = '8.10.90'
   const data = {
@@ -16,7 +16,7 @@ export default async (query, request) => {
         CryptoJS.MD5(query.password).toString(),
     rememberLogin: 'true',
   }
-  let result = await request(
+  return request(
     'POST',
     `https://music.163.com/weapi/login/cellphone`,
     data,
@@ -28,21 +28,4 @@ export default async (query, request) => {
       realIP: query.realIP,
     },
   )
-
-  if (result.body.code === 200) {
-    result = {
-      status: 200,
-      body: {
-        ...JSON.parse(
-          JSON.stringify(result.body).replace(
-            /avatarImgId_str/g,
-            'avatarImgIdStr',
-          ),
-        ),
-        cookie: result.cookie.join(';'),
-      },
-      cookie: result.cookie,
-    }
-  }
-  return result
 }

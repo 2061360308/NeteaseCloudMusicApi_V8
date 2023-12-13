@@ -1,4 +1,4 @@
-import config from '../util/config.json';const resourceTypeMap = config.resourceTypeMap;
+import config from '../util/config.json' assert { type: 'json' };const resourceTypeMap = config.resourceTypeMap;
 export default (query, request) => {
   query.type = resourceTypeMap[query.type]
   const data = {

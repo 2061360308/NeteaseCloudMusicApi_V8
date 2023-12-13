@@ -1,5 +1,5 @@
 // 相似歌手
-import config from '../util/config.json'
+import config from '../util/config.json' assert { type: 'json' };
 export default (query, request) => {
   const data = {
     artistid: query.id,

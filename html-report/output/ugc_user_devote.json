@@ -1,0 +1,13 @@
+{
+    "code": 200,
+    "data": {
+        "message": "查询成功",
+        "data": {
+            "userId": 2121989064,
+            "ugcCount": 0,
+            "cloudShell": 0,
+            "integration": 0
+        },
+        "code": 200
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "code": 200,
+    "data": {
+        "code": 200,
+        "more": true,
+        "followeds": [
+            {
+                "py": "btystddjj",
+                "time": 1702198618954,
+                "mutual": false,
+                "remarkName": null,
+                "nickname": "被太阳晒甜的大姐姐",
+                "followeds": 4,
+                "vipType": 11,
+                "avatarUrl": "http://p2.music.126.net/r8KheeMJ1h6oFqz0qoCWIw==/18676304509474056.jpg",
+                "authStatus": 0,
+                "gender": 2,
+                "expertTags": null,
+                "experts": null,
+                "accountStatus": 0,
+                "avatarDetail": null,
+                "userType": 0,
+                "userId": 320963872,
+                "followed": false,
+                "follows": 32,
+                "signature": null,
+                "vipRights": {
+                    "associator": {
+                        "vipCode": 100,
+                        "rights": true,
+                        "iconUrl": "https://p5.music.126.net/obj/wonDlsKUwrLClGjCm8Kx/17560008653/6b47/a01a/dbcb/fb56f4022db25b0deac9a81aac8a46f6.png"
+                    },
+                    "musicPackage": {
+                        "vipCode": 220,
+                        "rights": true,
+                        "iconUrl": "https://p5.music.126.net/obj/wonDlsKUwrLClGjCm8Kx/21892874340/50e6/e81d/5292/2d693cbb98954e28d4d9fdb11be99a8b.png"
+                    },
+                    "redplus": null,
+                    "redVipAnnualCount": 1,
+                    "redVipLevel": 7
+                },
+                "eventCount": 0,
+                "playlistCount": 19
+            }
+        ],
+        "size": 3137036
+    }
+}

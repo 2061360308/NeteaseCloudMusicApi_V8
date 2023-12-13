@@ -1,0 +1,9 @@
+{
+    "code": 404,
+    "data": null,
+    "msg": "Not Found",
+    "others": {
+        "status": 200,
+        "body": ""
+    }
+}

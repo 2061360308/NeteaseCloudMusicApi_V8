@@ -15,7 +15,7 @@ module.exports = async (query, request) => {
         crypto.createHash('md5').update(query.password).digest('hex'),
     rememberLogin: 'true',
   }
-  let result = await request(
+  let result = request(
     'POST',
     `https://music.163.com/weapi/login/cellphone`,
     data,
@@ -28,20 +28,22 @@ module.exports = async (query, request) => {
     },
   )
 
-  if (result.body.code === 200) {
-    result = {
-      status: 200,
-      body: {
-        ...JSON.parse(
-          JSON.stringify(result.body).replace(
-            /avatarImgId_str/g,
-            'avatarImgIdStr',
-          ),
-        ),
-        cookie: result.cookie.join(';'),
-      },
-      cookie: result.cookie,
-    }
-  }
+  console.log("result",result)
+
+  // if (result.body.code === 200) {
+  //   result = {
+  //     status: 200,
+  //     body: {
+  //       ...JSON.parse(
+  //         JSON.stringify(result.body).replace(
+  //           /avatarImgId_str/g,
+  //           'avatarImgIdStr',
+  //         ),
+  //       ),
+  //       cookie: result.cookie.join(';'),
+  //     },
+  //     cookie: result.cookie,
+  //   }
+  // }
   return result
 }

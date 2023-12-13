@@ -1,0 +1,837 @@
+{
+    "code": 200,
+    "data": {
+        "code": 200,
+        "data": {
+            "encUserId": "B2B8385C2528CCFF509EBAD4FA1FB9CF",
+            "listenOverview": {
+                "regTime": 1579536000000,
+                "daysSinceReg": 1068,
+                "firstPlaySongArtist": "中野家の五つ子",
+                "hisFirstSongCoverUrl": "http://p1.music.126.net/R_Pv7D6lCG3YDKnSq4EHqA==/109951163909332888.jpg",
+                "firstPlaySongName": "五等分の気持ち",
+                "firstPlaySongID": 1350516869,
+                "maxDaySongId": 1472819130,
+                "maxDaySongName": "游山恋",
+                "maxDaySongArtistName": "赵乙择/鹿瑶",
+                "maxDaySongCoverUrl": "http://p1.music.126.net/wXf-omhbyHR5bfPpYw7sFA==/109951165255498666.jpg"
+            },
+            "yearOverview": {
+                "playCount": 2427,
+                "playTime": 1328289,
+                "firstPlayedSong": {
+                    "songName": "晚来天欲雪",
+                    "songId": 1466822129,
+                    "songCoverUrl": "http://p1.music.126.net/uPzFaDTmqqPrv25YRnTc5g==/109951165183867893.jpg",
+                    "artistName": "恋恋故人难/云の泣"
+                }
+            },
+            "listenYears": {
+                "pies": [
+                    {
+                        "name": "2020",
+                        "detail": null,
+                        "count": 3241
+                    },
+                    {
+                        "name": "2010",
+                        "detail": null,
+                        "count": 2653
+                    },
+                    {
+                        "name": "2000",
+                        "detail": null,
+                        "count": 97
+                    },
+                    {
+                        "name": "1990",
+                        "detail": null,
+                        "count": 2
+                    },
+                    {
+                        "name": "1980",
+                        "detail": null,
+                        "count": 1
+                    }
+                ],
+                "songs": [
+                    {
+                        "songName": "庄周梦蝶",
+                        "songId": 1498066948,
+                        "artistName": "小田音乐社",
+                        "publishYear": "2020",
+                        "playCount": 47,
+                        "songPicId": 109951165495887760,
+                        "songPicUrl": "http://p1.music.126.net/a6LY1NxcDE5pCnym2ptbJA==/109951165495887753.jpg"
+                    },
+                    {
+                        "songName": "游山恋",
+                        "songId": 1472819130,
+                        "artistName": "赵乙择/鹿瑶",
+                        "publishYear": "2020",
+                        "playCount": 46,
+                        "songPicId": 109951165255498670,
+                        "songPicUrl": "http://p1.music.126.net/wXf-omhbyHR5bfPpYw7sFA==/109951165255498666.jpg"
+                    },
+                    {
+                        "songName": "长安夜",
+                        "songId": 1805329436,
+                        "artistName": "指尖笑/长稚酒安",
+                        "publishYear": "2020",
+                        "playCount": 45,
+                        "songPicId": 109951165549559900,
+                        "songPicUrl": "http://p1.music.126.net/wL2b85rl908iFUwhWWsWAQ==/109951165549559900.jpg"
+                    },
+                    {
+                        "songName": "是否",
+                        "songId": 1979274315,
+                        "artistName": "程响",
+                        "publishYear": "2022",
+                        "playCount": 45,
+                        "songPicId": 109951167959345250,
+                        "songPicUrl": "http://p1.music.126.net/bOJxkp8ujE62zRNZLWesqw==/109951167959345243.jpg"
+                    },
+                    {
+                        "songName": "小神仙",
+                        "songId": 1450044522,
+                        "artistName": "郭斯",
+                        "publishYear": "2020",
+                        "playCount": 43,
+                        "songPicId": 109951165007456670,
+                        "songPicUrl": "http://p1.music.126.net/u4RvMbRSq5MyzSBusyizGQ==/109951165007456666.jpg"
+                    }
+                ]
+            },
+            "listenYearsAlbumCovers": [
+                "http://p1.music.126.net/P0e3OcrLcllA-LU0RbJ9bw==/109951164423233270.jpg",
+                "http://p1.music.126.net/c86jfiaZ38a6K_lxhZejnw==/109951165876058040.jpg",
+                "http://p1.music.126.net/maCaAYM1GS5sl9SaBdgfTA==/109951163348574432.jpg",
+                "http://p1.music.126.net/Bli08kedCa1pT0p05AxO8A==/109951162955789816.jpg",
+                "http://p1.music.126.net/R9d4-eULOknTXf4fZz41Dg==/109951164346847770.jpg",
+                "http://p1.music.126.net/wL2b85rl908iFUwhWWsWAQ==/109951165549559900.jpg",
+                "http://p1.music.126.net/u4RvMbRSq5MyzSBusyizGQ==/109951165007456666.jpg",
+                "http://p1.music.126.net/J9_j9s2faIKwn6oqwQV2Rw==/109951166153759329.jpg",
+                "http://p1.music.126.net/jV3wsxNdLiufkG92VFvZAg==/7747158929826603.jpg",
+                "http://p1.music.126.net/MsHpwp6hFqJ5rCJf9D1YeQ==/109951167999119420.jpg",
+                "http://p1.music.126.net/BK78ySbstnHwwaOLO2WMaw==/109951165301033343.jpg",
+                "http://p1.music.126.net/fk3myS75uvu4M5-ZwgiucA==/109951166119687855.jpg",
+                "http://p1.music.126.net/8q-hjYMXEr2uktv0B_eF7Q==/109951165592029522.jpg",
+                "http://p1.music.126.net/NvG9t9XSvKhhsx5z85Q6ag==/109951165408604891.jpg",
+                "http://p1.music.126.net/GjC7y2NWgzy14E3IyVHfjQ==/109951164590188832.jpg",
+                "http://p1.music.126.net/65cefKnoQI2BMMasARKR7A==/109951164053772695.jpg",
+                "http://p1.music.126.net/bOJxkp8ujE62zRNZLWesqw==/109951167959345243.jpg",
+                "http://p1.music.126.net/n4aDEvdY6VQrkVzqWOlfUQ==/109951165309732122.jpg",
+                "http://p1.music.126.net/hdmBwxSEQa173V-wvayd6Q==/109951165545680822.jpg",
+                "http://p1.music.126.net/-nsOujDU3009S5MHdsbLdg==/109951167083757614.jpg",
+                "http://p1.music.126.net/ftqoIJKE7lR0GcuW5MGcuw==/109951165628025463.jpg",
+                "http://p1.music.126.net/WzP-bWSL-O3QmYzKt4V81g==/109951166119061523.jpg",
+                "http://p1.music.126.net/cbHgePpMb5JtCVHc8si2Hw==/109951165019271552.jpg",
+                "http://p1.music.126.net/I2HTANFbIKogWWZvLRiASg==/109951165080919229.jpg",
+                "http://p1.music.126.net/rxtmC5LLUxMfWx7szJr-bw==/7968160767131459.jpg",
+                "http://p1.music.126.net/yKVO0wAri_TPgq1ds12e2w==/109951165184677384.jpg",
+                "http://p1.music.126.net/C1rBtNIvfW074MkgN6NVKg==/109951163054279417.jpg",
+                "http://p1.music.126.net/wXf-omhbyHR5bfPpYw7sFA==/109951165255498666.jpg"
+            ],
+            "specialDay": {
+                "latePlay": {
+                    "datetime": 1656446247000,
+                    "songId": 1489271242,
+                    "songName": "问过少年",
+                    "artistId": "35517812/1047088/31862479",
+                    "artistName": "国风引力/小魂/国风堂",
+                    "songPicId": "109951165408604891",
+                    "songPicUrl": "http://p1.music.126.net/NvG9t9XSvKhhsx5z85Q6ag==/109951165408604891.jpg"
+                },
+                "maxLoopSong": {
+                    "playdate": 1664899200000,
+                    "singerName": "变奏的梦想",
+                    "playCount": 18,
+                    "songName": "江上清风游"
+                }
+            },
+            "genrePlayRanks": [
+                {
+                    "genreType": "2",
+                    "genreRank": [
+                        {
+                            "genreTagName": "国风流行",
+                            "rank": "1",
+                            "genrePlayCnt": "1587"
+                        },
+                        {
+                            "genreTagName": "华语流行",
+                            "rank": "2",
+                            "genrePlayCnt": "1044"
+                        },
+                        {
+                            "genreTagName": "古风",
+                            "rank": "3",
+                            "genrePlayCnt": "1033"
+                        },
+                        {
+                            "genreTagName": "国风",
+                            "rank": "4",
+                            "genrePlayCnt": "863"
+                        },
+                        {
+                            "genreTagName": "国风嘻哈",
+                            "rank": "5",
+                            "genrePlayCnt": "81"
+                        },
+                        {
+                            "genreTagName": "游戏原声",
+                            "rank": "6",
+                            "genrePlayCnt": "69"
+                        },
+                        {
+                            "genreTagName": "电视剧原声",
+                            "rank": "7",
+                            "genrePlayCnt": "55"
+                        },
+                        {
+                            "genreTagName": "同人作品",
+                            "rank": "8",
+                            "genrePlayCnt": "47"
+                        },
+                        {
+                            "genreTagName": "纯音乐",
+                            "rank": "9",
+                            "genrePlayCnt": "40"
+                        },
+                        {
+                            "genreTagName": "流行轻音乐",
+                            "rank": "10",
+                            "genrePlayCnt": "32"
+                        },
+                        {
+                            "genreTagName": "动漫歌曲",
+                            "rank": "11",
+                            "genrePlayCnt": "31"
+                        },
+                        {
+                            "genreTagName": "华语民谣",
+                            "rank": "12",
+                            "genrePlayCnt": "28"
+                        },
+                        {
+                            "genreTagName": "喊麦",
+                            "rank": "13",
+                            "genrePlayCnt": "26"
+                        },
+                        {
+                            "genreTagName": "流行",
+                            "rank": "14",
+                            "genrePlayCnt": "22"
+                        },
+                        {
+                            "genreTagName": "电影原声",
+                            "rank": "15",
+                            "genrePlayCnt": "21"
+                        },
+                        {
+                            "genreTagName": "翻唱",
+                            "rank": "16",
+                            "genrePlayCnt": "21"
+                        },
+                        {
+                            "genreTagName": "流行民谣",
+                            "rank": "17",
+                            "genrePlayCnt": "19"
+                        },
+                        {
+                            "genreTagName": "游戏音乐",
+                            "rank": "18",
+                            "genrePlayCnt": "19"
+                        },
+                        {
+                            "genreTagName": "器乐流行",
+                            "rank": "19",
+                            "genrePlayCnt": "18"
+                        },
+                        {
+                            "genreTagName": "中文嘻哈",
+                            "rank": "20",
+                            "genrePlayCnt": "17"
+                        },
+                        {
+                            "genreTagName": "灵魂乐",
+                            "rank": "21",
+                            "genrePlayCnt": "14"
+                        },
+                        {
+                            "genreTagName": "综艺原声",
+                            "rank": "22",
+                            "genrePlayCnt": "14"
+                        },
+                        {
+                            "genreTagName": "国风电子",
+                            "rank": "23",
+                            "genrePlayCnt": "12"
+                        },
+                        {
+                            "genreTagName": "流行摇滚",
+                            "rank": "24",
+                            "genrePlayCnt": "12"
+                        },
+                        {
+                            "genreTagName": "流行说唱",
+                            "rank": "25",
+                            "genrePlayCnt": "11"
+                        },
+                        {
+                            "genreTagName": "粤语流行",
+                            "rank": "26",
+                            "genrePlayCnt": "11"
+                        },
+                        {
+                            "genreTagName": "话剧",
+                            "rank": "27",
+                            "genrePlayCnt": "11"
+                        },
+                        {
+                            "genreTagName": "华语唱作人",
+                            "rank": "28",
+                            "genrePlayCnt": "9"
+                        },
+                        {
+                            "genreTagName": "欧美流行",
+                            "rank": "29",
+                            "genrePlayCnt": "9"
+                        },
+                        {
+                            "genreTagName": "歌声合成",
+                            "rank": "30",
+                            "genrePlayCnt": "8"
+                        },
+                        {
+                            "genreTagName": "动画片原声",
+                            "rank": "31",
+                            "genrePlayCnt": "7"
+                        },
+                        {
+                            "genreTagName": "未来贝斯",
+                            "rank": "32",
+                            "genrePlayCnt": "7"
+                        },
+                        {
+                            "genreTagName": "中文DJ",
+                            "rank": "33",
+                            "genrePlayCnt": "6"
+                        },
+                        {
+                            "genreTagName": "唱见",
+                            "rank": "34",
+                            "genrePlayCnt": "6"
+                        },
+                        {
+                            "genreTagName": "电子流行",
+                            "rank": "35",
+                            "genrePlayCnt": "6"
+                        },
+                        {
+                            "genreTagName": "纯器乐",
+                            "rank": "36",
+                            "genrePlayCnt": "6"
+                        },
+                        {
+                            "genreTagName": "纯演奏",
+                            "rank": "37",
+                            "genrePlayCnt": "6"
+                        },
+                        {
+                            "genreTagName": "融合说唱",
+                            "rank": "38",
+                            "genrePlayCnt": "6"
+                        },
+                        {
+                            "genreTagName": "另类摇滚",
+                            "rank": "39",
+                            "genrePlayCnt": "5"
+                        },
+                        {
+                            "genreTagName": "独立流行",
+                            "rank": "40",
+                            "genrePlayCnt": "5"
+                        },
+                        {
+                            "genreTagName": "缓拍",
+                            "rank": "41",
+                            "genrePlayCnt": "5"
+                        },
+                        {
+                            "genreTagName": "抒情嘻哈",
+                            "rank": "42",
+                            "genrePlayCnt": "4"
+                        },
+                        {
+                            "genreTagName": "现场",
+                            "rank": "43",
+                            "genrePlayCnt": "4"
+                        },
+                        {
+                            "genreTagName": "儿歌",
+                            "rank": "44",
+                            "genrePlayCnt": "3"
+                        },
+                        {
+                            "genreTagName": "意识说唱",
+                            "rank": "45",
+                            "genrePlayCnt": "3"
+                        },
+                        {
+                            "genreTagName": "日本流行",
+                            "rank": "46",
+                            "genrePlayCnt": "3"
+                        },
+                        {
+                            "genreTagName": "浩室舞曲",
+                            "rank": "47",
+                            "genrePlayCnt": "3"
+                        },
+                        {
+                            "genreTagName": "电子",
+                            "rank": "48",
+                            "genrePlayCnt": "3"
+                        },
+                        {
+                            "genreTagName": "迷幻流行",
+                            "rank": "49",
+                            "genrePlayCnt": "3"
+                        },
+                        {
+                            "genreTagName": "配乐",
+                            "rank": "50",
+                            "genrePlayCnt": "3"
+                        }
+                    ],
+                    "genreCnt": "80"
+                },
+                {
+                    "genreType": "1",
+                    "genreRank": [
+                        {
+                            "genreTagName": "国风",
+                            "rank": "1",
+                            "genrePlayCnt": "2027"
+                        },
+                        {
+                            "genreTagName": "流行",
+                            "rank": "2",
+                            "genrePlayCnt": "1370"
+                        },
+                        {
+                            "genreTagName": "中国音乐",
+                            "rank": "3",
+                            "genrePlayCnt": "537"
+                        },
+                        {
+                            "genreTagName": "原声带",
+                            "rank": "4",
+                            "genrePlayCnt": "190"
+                        },
+                        {
+                            "genreTagName": "轻音乐",
+                            "rank": "5",
+                            "genrePlayCnt": "175"
+                        },
+                        {
+                            "genreTagName": "二次元",
+                            "rank": "6",
+                            "genrePlayCnt": "125"
+                        },
+                        {
+                            "genreTagName": "其他",
+                            "rank": "7",
+                            "genrePlayCnt": "74"
+                        },
+                        {
+                            "genreTagName": "嘻哈说唱",
+                            "rank": "8",
+                            "genrePlayCnt": "56"
+                        },
+                        {
+                            "genreTagName": "民谣",
+                            "rank": "9",
+                            "genrePlayCnt": "51"
+                        },
+                        {
+                            "genreTagName": "电子",
+                            "rank": "10",
+                            "genrePlayCnt": "43"
+                        },
+                        {
+                            "genreTagName": "慢摇DJ",
+                            "rank": "11",
+                            "genrePlayCnt": "34"
+                        },
+                        {
+                            "genreTagName": "摇滚",
+                            "rank": "12",
+                            "genrePlayCnt": "26"
+                        },
+                        {
+                            "genreTagName": "舞台",
+                            "rank": "13",
+                            "genrePlayCnt": "15"
+                        },
+                        {
+                            "genreTagName": "节奏布鲁斯",
+                            "rank": "14",
+                            "genrePlayCnt": "15"
+                        },
+                        {
+                            "genreTagName": "另类/独立",
+                            "rank": "15",
+                            "genrePlayCnt": "7"
+                        },
+                        {
+                            "genreTagName": "儿童",
+                            "rank": "16",
+                            "genrePlayCnt": "6"
+                        },
+                        {
+                            "genreTagName": "唱作人",
+                            "rank": "17",
+                            "genrePlayCnt": "3"
+                        },
+                        {
+                            "genreTagName": "世界音乐",
+                            "rank": "18",
+                            "genrePlayCnt": "2"
+                        },
+                        {
+                            "genreTagName": "有声音频",
+                            "rank": "19",
+                            "genrePlayCnt": "2"
+                        },
+                        {
+                            "genreTagName": "爵士",
+                            "rank": "20",
+                            "genrePlayCnt": "2"
+                        },
+                        {
+                            "genreTagName": "古典",
+                            "rank": "21",
+                            "genrePlayCnt": "1"
+                        },
+                        {
+                            "genreTagName": "实验",
+                            "rank": "22",
+                            "genrePlayCnt": "1"
+                        },
+                        {
+                            "genreTagName": "新世纪",
+                            "rank": "23",
+                            "genrePlayCnt": "1"
+                        }
+                    ],
+                    "genreCnt": "23"
+                }
+            ],
+            "minoritySong": {
+                "minoritySongId": "1443055583",
+                "minoritySongName": "逍遥调",
+                "minoritySingerId": "31727575,12648921",
+                "minoritySingerName": "伊格赛听,李佩琪",
+                "minoritySongIrstDate": 0,
+                "minoritySongPlayNum": 24,
+                "minoritySongPlayUnt": 25851
+            },
+            "seasonsListen": {
+                "spring": {
+                    "seasonIndex": 1,
+                    "songId": 1922872664,
+                    "songName": "书中有",
+                    "artistId": "1039314",
+                    "artistName": "叶里",
+                    "playNum": 42,
+                    "picId": "109951167083757614",
+                    "picUrl": "http://p1.music.126.net/-nsOujDU3009S5MHdsbLdg==/109951167083757614.jpg",
+                    "bpm": 90,
+                    "genreTagNameList": null
+                },
+                "summer": {
+                    "seasonIndex": 2,
+                    "songId": 453175619,
+                    "songName": "未见青山老",
+                    "artistId": "12065133",
+                    "artistName": "以冬",
+                    "playNum": 24,
+                    "picId": "109951162955789816",
+                    "picUrl": "http://p1.music.126.net/Bli08kedCa1pT0p05AxO8A==/109951162955789816.jpg",
+                    "bpm": 76,
+                    "genreTagNameList": "国风"
+                },
+                "autumn": {
+                    "seasonIndex": 3,
+                    "songId": 32743519,
+                    "songName": "江上清风游",
+                    "artistId": "1085053",
+                    "artistName": "变奏的梦想",
+                    "playNum": 77,
+                    "picId": "7968160767131459",
+                    "picUrl": "http://p1.music.126.net/rxtmC5LLUxMfWx7szJr-bw==/7968160767131459.jpg",
+                    "bpm": 76,
+                    "genreTagNameList": "国风"
+                },
+                "winter": {
+                    "seasonIndex": 4,
+                    "songId": 1451145776,
+                    "songName": "绝世舞姬",
+                    "artistId": "14588567/14588611",
+                    "artistName": "张晓涵/戚琦",
+                    "playNum": 42,
+                    "picId": "109951165019271552",
+                    "picUrl": "http://p1.music.126.net/cbHgePpMb5JtCVHc8si2Hw==/109951165019271552.jpg",
+                    "bpm": 76,
+                    "genreTagNameList": "国风"
+                }
+            },
+            "seasonsKeyword": null,
+            "musicEmotion": {
+                "genre": "国风流行"
+            },
+            "eggStatistics": {
+                "loginDays": 459,
+                "headArtistName": null,
+                "activeDaysThisYear": 129,
+                "dailyRcmdViewDays": 139,
+                "starSongCount": 20,
+                "playlistCount": 0,
+                "songPlayCount": 3865,
+                "djPlayHours": 2,
+                "level": 8,
+                "latePlayDays": 83,
+                "artistPlayCount": 2211,
+                "searchCount": 0,
+                "songShareCount": 9,
+                "voiceBookPlayCount": 0,
+                "buyAlbumCount": 0,
+                "commentCount": 0,
+                "genrePlayCount": 98,
+                "genrePercents": [
+                    {
+                        "genreTagName": "国风",
+                        "rank": 1,
+                        "genrePlayCnt": 2027
+                    },
+                    {
+                        "genreTagName": "流行",
+                        "rank": 2,
+                        "genrePlayCnt": 1370
+                    },
+                    {
+                        "genreTagName": "中国音乐",
+                        "rank": 3,
+                        "genrePlayCnt": 537
+                    },
+                    {
+                        "genreTagName": "原声带",
+                        "rank": 4,
+                        "genrePlayCnt": 190
+                    },
+                    {
+                        "genreTagName": "轻音乐",
+                        "rank": 5,
+                        "genrePlayCnt": 175
+                    }
+                ],
+                "headArtistPlayCnt": 0
+            },
+            "availableSurprises": null,
+            "commentBizPage": null,
+            "playlistBizPage": null,
+            "musicianBizPage": null,
+            "vipBizPage": {
+                "firstTime": 1654704000000,
+                "vipSongPlayCount": 304,
+                "vipSongCount": 130,
+                "svip": false,
+                "vip": true
+            },
+            "voicePlayBizPage": {
+                "activateDays": 4,
+                "voiceListPlayHours": 2,
+                "voiceListName": "白噪音＆自然音 助眠 学习 放松 工作",
+                "repeatPlayCreator": "住在小森林",
+                "repeatPlayCount": 2
+            },
+            "voiceCreatorBizPage": null,
+            "listenTogetherBizPage": null,
+            "annualSong": {
+                "songName": "江上清风游",
+                "songId": 32743519,
+                "artistnamelist": "变奏的梦想",
+                "firstDate": 1663776000000,
+                "songPicId": "7968160767131459",
+                "songPicUrl": "http://p1.music.126.net/rxtmC5LLUxMfWx7szJr-bw==/7968160767131459.jpg",
+                "hundredthDate": 0,
+                "playDays": 27,
+                "playCnt": 77,
+                "userCountOfThisAnnualSong": 9022,
+                "tune": "#f"
+            },
+            "annualPlaylist": {
+                "items": [
+                    {
+                        "songId": 32743519,
+                        "songName": "江上清风游",
+                        "playCount": 77,
+                        "index": 1,
+                        "artistId": "1085053",
+                        "artistName": "变奏的梦想",
+                        "picid": "7968160767131459",
+                        "picUrl": "http://p1.music.126.net/rxtmC5LLUxMfWx7szJr-bw==/7968160767131459.jpg"
+                    },
+                    {
+                        "songId": 1363530763,
+                        "songName": "全都是戏",
+                        "playCount": 50,
+                        "index": 2,
+                        "artistId": "14588567",
+                        "artistName": "张晓涵",
+                        "picid": "109951164053772695",
+                        "picUrl": "http://p1.music.126.net/65cefKnoQI2BMMasARKR7A==/109951164053772695.jpg"
+                    },
+                    {
+                        "songId": 1396556701,
+                        "songName": "月",
+                        "playCount": 49,
+                        "index": 3,
+                        "artistId": "28186342",
+                        "artistName": "大柯",
+                        "picid": "109951164423233270",
+                        "picUrl": "http://p1.music.126.net/P0e3OcrLcllA-LU0RbJ9bw==/109951164423233270.jpg"
+                    },
+                    {
+                        "songId": 1377748865,
+                        "songName": "赤伶",
+                        "playCount": 47,
+                        "index": 4,
+                        "artistId": "32674400",
+                        "artistName": "是二智呀",
+                        "picid": "109951164346847770",
+                        "picUrl": "http://p1.music.126.net/R9d4-eULOknTXf4fZz41Dg==/109951164346847770.jpg"
+                    },
+                    {
+                        "songId": 1498066948,
+                        "songName": "庄周梦蝶",
+                        "playCount": 47,
+                        "index": 5,
+                        "artistId": "12852319",
+                        "artistName": "小田音乐社",
+                        "picid": "109951165495887753",
+                        "picUrl": "http://p1.music.126.net/a6LY1NxcDE5pCnym2ptbJA==/109951165495887753.jpg"
+                    },
+                    {
+                        "songId": 1472819130,
+                        "songName": "游山恋",
+                        "playCount": 46,
+                        "index": 6,
+                        "artistId": "36503070/34031248",
+                        "artistName": "赵乙择/鹿瑶",
+                        "picid": "109951165255498666",
+                        "picUrl": "http://p1.music.126.net/wXf-omhbyHR5bfPpYw7sFA==/109951165255498666.jpg"
+                    },
+                    {
+                        "songId": 1805329436,
+                        "songName": "长安夜",
+                        "playCount": 45,
+                        "index": 7,
+                        "artistId": "12565296/27908926",
+                        "artistName": "指尖笑/长稚酒安",
+                        "picid": "109951165549559900",
+                        "picUrl": "http://p1.music.126.net/wL2b85rl908iFUwhWWsWAQ==/109951165549559900.jpg"
+                    },
+                    {
+                        "songId": 1979274315,
+                        "songName": "是否",
+                        "playCount": 45,
+                        "index": 8,
+                        "artistId": "7424",
+                        "artistName": "程响",
+                        "picid": "109951167959345243",
+                        "picUrl": "http://p1.music.126.net/bOJxkp8ujE62zRNZLWesqw==/109951167959345243.jpg"
+                    },
+                    {
+                        "songId": 1450044522,
+                        "songName": "小神仙",
+                        "playCount": 43,
+                        "index": 9,
+                        "artistId": "1197136",
+                        "artistName": "郭斯",
+                        "picid": "109951165007456666",
+                        "picUrl": "http://p1.music.126.net/u4RvMbRSq5MyzSBusyizGQ==/109951165007456666.jpg"
+                    },
+                    {
+                        "songId": 1451145776,
+                        "songName": "绝世舞姬",
+                        "playCount": 42,
+                        "index": 10,
+                        "artistId": "14588567/14588611",
+                        "artistName": "张晓涵/戚琦",
+                        "picid": "109951165019271552",
+                        "picUrl": "http://p1.music.126.net/cbHgePpMb5JtCVHc8si2Hw==/109951165019271552.jpg"
+                    }
+                ]
+            },
+            "annualSinger": {
+                "singerId": "31862479",
+                "singerName": "国风堂",
+                "singerPicid": "109951163986545763",
+                "singerPicUrl": "http://p1.music.126.net/o52i7WpdQauej1o25mJh1A==/109951163986545763.jpg",
+                "playCount": 289,
+                "top5Songs": [
+                    {
+                        "name": "古诗中国",
+                        "playCount": 41,
+                        "index": 1
+                    },
+                    {
+                        "name": "问过少年",
+                        "playCount": 26,
+                        "index": 2
+                    },
+                    {
+                        "name": "锦中客",
+                        "playCount": 11,
+                        "index": 3
+                    },
+                    {
+                        "name": "杨花落尽子规啼",
+                        "playCount": 9,
+                        "index": 4
+                    },
+                    {
+                        "name": "吹灭小山河",
+                        "playCount": 8,
+                        "index": 5
+                    }
+                ]
+            },
+            "annualSingerComparePage": {
+                "singers": [
+                    {
+                        "year": "2020",
+                        "singerName": "等什么君",
+                        "singerPicid": "109951164481818280",
+                        "singerPicUrl": "http://p1.music.126.net/3R0sqO3zORdsp9vyPXEEgA==/109951164481818280.jpg"
+                    },
+                    {
+                        "year": "2021",
+                        "singerName": "国风堂",
+                        "singerPicid": "109951163986545763",
+                        "singerPicUrl": "http://p1.music.126.net/o52i7WpdQauej1o25mJh1A==/109951163986545763.jpg"
+                    },
+                    {
+                        "year": "2022",
+                        "singerName": "国风堂",
+                        "singerPicid": "109951163986545763",
+                        "singerPicUrl": "http://p1.music.126.net/o52i7WpdQauej1o25mJh1A==/109951163986545763.jpg"
+                    }
+                ]
+            }
+        },
+        "message": ""
+    }
+}

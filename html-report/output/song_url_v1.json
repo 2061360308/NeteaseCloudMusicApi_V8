@@ -1,0 +1,93 @@
+{
+    "code": 200,
+    "data": {
+        "data": [
+            {
+                "id": 33894312,
+                "url": "http://m8.music.126.net/20231210173705/7b3e2cdb30a2827f637b54003be6ff73/ymusic/0fd6/4f65/43ed/a8772889f38dfcb91c04da915b301617.mp3",
+                "br": 320000,
+                "size": 10691439,
+                "md5": "a8772889f38dfcb91c04da915b301617",
+                "code": 200,
+                "expi": 1200,
+                "type": "mp3",
+                "gain": -6.3072,
+                "peak": 1,
+                "fee": 0,
+                "uf": null,
+                "payed": 0,
+                "flag": 129,
+                "canExtend": false,
+                "freeTrialInfo": null,
+                "level": "exhigh",
+                "encodeType": "mp3",
+                "channelLayout": null,
+                "freeTrialPrivilege": {
+                    "resConsumable": false,
+                    "userConsumable": false,
+                    "listenType": 5,
+                    "cannotListenReason": 1,
+                    "playReason": null
+                },
+                "freeTimeTrialPrivilege": {
+                    "resConsumable": false,
+                    "userConsumable": false,
+                    "type": 0,
+                    "remainTime": 0
+                },
+                "urlSource": 0,
+                "rightSource": 0,
+                "podcastCtrp": null,
+                "effectTypes": null,
+                "time": 267232
+            },
+            {
+                "id": 405998841,
+                "url": "http://m802.music.126.net/20231210173705/e2dc777f34b3d1d4efe66d2331369c1f/jd-musicrep-ts/0543/8721/0d4a/e716f340b10313989dc65ea842465e89.mp3",
+                "br": 128018,
+                "size": 321036,
+                "md5": "e716f340b10313989dc65ea842465e89",
+                "code": 200,
+                "expi": 1200,
+                "type": "MP3",
+                "gain": 2,
+                "peak": 0,
+                "fee": 1,
+                "uf": null,
+                "payed": 0,
+                "flag": 1284,
+                "canExtend": false,
+                "freeTrialInfo": {
+                    "fragmentType": 1003,
+                    "start": 2,
+                    "end": 22,
+                    "algData": {
+                        "audioEffect": -1
+                    }
+                },
+                "level": "standard",
+                "encodeType": "mp3",
+                "channelLayout": null,
+                "freeTrialPrivilege": {
+                    "resConsumable": false,
+                    "userConsumable": false,
+                    "listenType": 5,
+                    "cannotListenReason": 1,
+                    "playReason": null
+                },
+                "freeTimeTrialPrivilege": {
+                    "resConsumable": false,
+                    "userConsumable": false,
+                    "type": 0,
+                    "remainTime": 0
+                },
+                "urlSource": 0,
+                "rightSource": 0,
+                "podcastCtrp": null,
+                "effectTypes": null,
+                "time": 20035
+            }
+        ],
+        "code": 200
+    }
+}

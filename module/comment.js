@@ -1,4 +1,4 @@
-import config from '../util/config.json';const resourceTypeMap = config.resourceTypeMap;
+import config from '../util/config.json' assert { type: 'json' };const resourceTypeMap = config.resourceTypeMap;
 // 发送与删除评论
 
 export default (query, request) => {

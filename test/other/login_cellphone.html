@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>页面标题</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="../other_module/vue.min.js"></script>
+    <script src="../dist/NeteaseCloudMusicApi.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <pre id="json">{{content}}</pre>
+    </div>
+  </body>
+  <script>
+    const vue = new Vue({
+      el: "#app",
+      data: {
+        content: "",
+      },
+      methods: {
+        updateContent: function (result) {
+          this.content = result;
+        },
+      },
+    });
+  </script>
+  <script>
+    result = NeteaseCloudMusicApi("login_cellphone", {
+      phone:"15234941791",
+      captcha:"123456",
+      cookie: "",
+      realIP: "116.25.146.177",
+    });
+    console.log("result:::",result);
+    vue.content = JSON.stringify(result, null, 2); // 格式化 JSON 对象
+  </script>
+</html>

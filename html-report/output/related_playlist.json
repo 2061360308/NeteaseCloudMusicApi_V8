@@ -1,0 +1,53 @@
+{
+    "code": 200,
+    "data": {
+        "code": 200,
+        "playlists": [
+            {
+                "creator": {
+                    "userId": "41751076",
+                    "nickname": "流年忧光影"
+                },
+                "coverImgUrl": "http://p1.music.126.net/VFd5cboNTbnYsWZ5DBn9bg==/18953381440004340.jpg",
+                "name": "经典老歌，久听不厌",
+                "id": "988690134"
+            },
+            {
+                "creator": {
+                    "userId": "134915478",
+                    "nickname": "杰宇情感君"
+                },
+                "coverImgUrl": "http://p1.music.126.net/DiFJ0D5Ju6ylqIkkRbpa7g==/109951165053086032.jpg",
+                "name": "『失恋必听歌曲』你会突然听懂这些歌!",
+                "id": "2780667664"
+            },
+            {
+                "creator": {
+                    "userId": "541401463",
+                    "nickname": "洒酒无牵挂"
+                },
+                "coverImgUrl": "http://p1.music.126.net/1gNcBmzdIaQtU00Dvp_TvQ==/109951163912081772.jpg",
+                "name": "好听到单曲循环",
+                "id": "979321026"
+            },
+            {
+                "creator": {
+                    "userId": "554491537",
+                    "nickname": "远离坏坏坏女人"
+                },
+                "coverImgUrl": "http://p1.music.126.net/0XrNUknrr80H_tgxZLnxyA==/109951169133804677.jpg",
+                "name": "国产说唱 | 你的中文说唱旋律精选",
+                "id": "8501280190"
+            },
+            {
+                "creator": {
+                    "userId": "343171909",
+                    "nickname": "机智的兔子刘"
+                },
+                "coverImgUrl": "http://p2.music.126.net/g8HLVawXSg1ZRhJmIfp2tA==/19222761788597467.jpg",
+                "name": "说不出名字的那些经典英文歌",
+                "id": "487457627"
+            }
+        ]
+    }
+}

@@ -1,4 +1,4 @@
-import pkg from '../package.json'
+import pkg from '../package.json' assert { type: 'json' };
 export default (query, request) => {
   return new Promise((resolve) => {
     return resolve({

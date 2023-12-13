@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/codemirror.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/theme/monokai.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/fold/foldgutter.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/mode/javascript/javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/fold/foldcode.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/fold/foldgutter.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/fold/brace-fold.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/fold/indent-fold.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/fold/json-fold.min.js"></script>
+    <style>
+      .CodeMirror {
+        height: auto;
+        border: 1px solid #ddd;
+      }
+      .CodeMirror-readonly .CodeMirror-cursor {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="foldAllButton">全部折叠</button>
+    <button id="unfoldAllButton">全部展开</button>
+
+    <textarea id="code" style="display: none">{
+        "response.data": "",
+        "expectedObject": {
+          "message": {
+            "inverse": false
+          },
+          "data": {
+            "redVipLevelIcon": {
+              "inverse": false
+            },
+            "redVipLevel": {
+              "inverse": false
+            },
+            "redVipAnnualCount": {
+              "inverse": false
+            },
+            "musicPackage": {
+              "vipCode": {
+                "inverse": false
+              },
+              "expireTime": {
+                "inverse": false
+              },
+              "iconUrl": {
+                "inverse": false
+              },
+              "dynamicIconUrl": {
+                "inverse": false
+              },
+              "vipLevel": {
+                "inverse": false
+              },
+              "isSignDeduct": {
+                "inverse": false
+              },
+              "isSignIap": {
+                "inverse": false
+              },
+              "isSignIapDeduct": {
+                "inverse": false
+              },
+              "isSign": {
+                "inverse": false
+              }
+            },
+            "associator": {
+              "vipCode": {
+                "inverse": false
+              },
+              "expireTime": {
+                "inverse": false
+              },
+              "iconUrl": {
+                "inverse": false
+              },
+              "dynamicIconUrl": {
+                "inverse": false
+              },
+              "vipLevel": {
+                "inverse": false
+              },
+              "isSignDeduct": {
+                "inverse": false
+              },
+              "isSignIap": {
+                "inverse": false
+              },
+              "isSignIapDeduct": {
+                "inverse": false
+              },
+              "isSign": {
+                "inverse": false
+              }
+            },
+            "redVipDynamicIconUrl": null,
+            "redVipDynamicIconUrl2": null,
+            "redplus": {
+              "vipCode": {
+                "inverse": false
+              },
+              "expireTime": {
+                "inverse": false
+              },
+              "iconUrl": {
+                "inverse": false
+              },
+              "dynamicIconUrl": null,
+              "vipLevel": {
+                "inverse": false
+              },
+              "isSignDeduct": {
+                "inverse": false
+              },
+              "isSignIap": {
+                "inverse": false
+              },
+              "isSignIapDeduct": {
+                "inverse": false
+              },
+              "isSign": {
+                "inverse": false
+              }
+            }
+          },
+          "code": {
+            "inverse": false
+          }
+        },
+        "differString": "Expected: \u001b[32m{\"code\": Any<Number>, \"data\": {\"associator\": {\"dynamicIconUrl\": Any<String>, \"expireTime\": Any<Number>, \"iconUrl\": Any<String>, \"isSign\": Any<Boolean>, \"isSignDeduct\": Any<Boolean>, \"isSignIap\": Any<Boolean>, \"isSignIapDeduct\": Any<Boolean>, \"vipCode\": Any<Number>, \"vipLevel\": Any<Number>}, \"musicPackage\": {\"dynamicIconUrl\": Any<String>, \"expireTime\": Any<Number>, \"iconUrl\": Any<String>, \"isSign\": Any<Boolean>, \"isSignDeduct\": Any<Boolean>, \"isSignIap\": Any<Boolean>, \"isSignIapDeduct\": Any<Boolean>, \"vipCode\": Any<Number>, \"vipLevel\": Any<Number>}, \"redVipAnnualCount\": Any<Number>, \"redVipDynamicIconUrl\": null, \"redVipDynamicIconUrl2\": null, \"redVipLevel\": Any<Number>, \"redVipLevelIcon\": Any<String>, \"redplus\": {\"dynamicIconUrl\": null, \"expireTime\": Any<Number>, \"iconUrl\": Any<String>, \"isSign\": Any<Boolean>, \"isSignDeduct\": Any<Boolean>, \"isSignIap\": Any<Boolean>, \"isSignIapDeduct\": Any<Boolean>, \"vipCode\": Any<Number>, \"vipLevel\": Any<Number>}}, \"message\": Any<String>}\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m"
+      }</textarea>
+    <script>
+      var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+        lineNumbers: true,
+        mode: "application/json",
+        theme: "monokai",
+        readOnly: true,
+        foldGutter: true,
+        gutters: ["CodeMirror-linenumbers", "CodeMirror-foldgutter"],
+      });
+
+      document
+        .getElementById("foldAllButton")
+        .addEventListener("click", function () {
+          editor.foldCode(CodeMirror.Pos(0, 0), null, 'fold');
+        });
+
+      document
+        .getElementById("unfoldAllButton")
+        .addEventListener("click", function () {
+          editor.foldCode(CodeMirror.Pos(0, 0), null, 'unfold');
+        });
+    </script>
+  </body>
+</html>

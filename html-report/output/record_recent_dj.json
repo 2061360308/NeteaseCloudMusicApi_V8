@@ -1,0 +1,65 @@
+{
+    "code": 200,
+    "data": {
+        "code": 200,
+        "data": {
+            "total": 1,
+            "list": [
+                {
+                    "resourceId": "7393062",
+                    "playTime": 1679113603453,
+                    "resourceType": "DJ_RADIO",
+                    "data": {
+                        "id": 7393062,
+                        "name": "抖音热门音乐DJ车载Remix舞曲来电铃声EA7",
+                        "picUrl": "http://p1.music.126.net/OunVYO9-CfP_KxmIOkB9yQ==/109951168944095932.jpg",
+                        "dj": {
+                            "extProperties": {
+                                "avatarImgId_str": "109951168996012815"
+                            },
+                            "defaultAvatar": false,
+                            "province": 310000,
+                            "authStatus": 0,
+                            "followed": false,
+                            "avatarUrl": "http://p1.music.126.net/S7YxmtjIujOUFJaScACyPg==/109951168996012815.jpg",
+                            "accountStatus": 0,
+                            "gender": 2,
+                            "city": 310101,
+                            "birthday": 856408989615,
+                            "userId": 124044752,
+                            "userType": 207,
+                            "nickname": "DJMUZ",
+                            "signature": "本 电 台是一个 集 音 乐★(DJ)世 界高 潮 音 乐毒为一 体的 网 络 音 乐电 台,以 音 乐为纽 带，用 声 音作 媒介心与 心的交汇，用耳 朵倾 听你我的快 乐,用 心灵关注 世 界的宽广 ,用 音 乐 感 动你的内 心最纤 细的神经喜欢 的朋 友们希 望大 家多支持,多多赞不要忘记按订阅哦✵\n罗马尼亚火爆舞曲,MP3音质DJ舞曲下载主打罗马尼亚/阿尔巴尼亚/土耳其/乌克兰/法国/美国/德国/俄罗斯/和其他国家车载,酒吧音乐,各种节奏党音乐。喜欢就给赞,分享谢谢。基本是自己开车必听曲,有和别的台友们有一样的歌,曲望理解包容。不定期的更新歌曲,部分电台用户们Gou爪犯贱盗歌直接发布网易云之前说一声,国外网站掏歌不容易,请尊重别人劳动成果、非常感谢支持。",
+                            "description": "",
+                            "detailDescription": "",
+                            "avatarImgId": 109951168996012820,
+                            "backgroundImgId": 109951166651607280,
+                            "backgroundUrl": "http://p1.music.126.net/zkIn5-AUH5NAZOuDEVve8A==/109951166651607274.jpg",
+                            "authority": 0,
+                            "mutual": false,
+                            "expertTags": null,
+                            "experts": null,
+                            "djStatus": 10,
+                            "vipType": 11,
+                            "remarkName": null,
+                            "avatarImgIdStr": "109951168996012815",
+                            "backgroundImgIdStr": "109951166651607274",
+                            "xInfo": {
+                                "avatarImgId_str": "109951168996012815"
+                            }
+                        },
+                        "lastProgramId": 2518921473,
+                        "programCount": 1074,
+                        "playCount": 73574031,
+                        "replaceName": null,
+                        "icon": null,
+                        "programData": null,
+                        "categoryId": 10002
+                    },
+                    "os": "android"
+                }
+            ]
+        },
+        "message": ""
+    }
+}

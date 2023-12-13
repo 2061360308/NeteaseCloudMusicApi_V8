@@ -1,0 +1,14 @@
+{
+    "code": 200,
+    "data": {
+        "code": 200,
+        "message": "success",
+        "data": {
+            "isFollow": false,
+            "fansCnt": 9311991,
+            "followCnt": 0,
+            "followDay": "已关注",
+            "follow": false
+        }
+    }
+}

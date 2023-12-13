@@ -1,0 +1,15 @@
+{
+    "code": 200,
+    "data": {
+        "commentCount": 0,
+        "shareCount": 6,
+        "playCount": 19238,
+        "bookedCount": 4,
+        "subscribed": false,
+        "remarkName": null,
+        "followed": true,
+        "gradeStatus": "NONE",
+        "remixVideo": null,
+        "code": 200
+    }
+}
