@@ -5,30 +5,30 @@
         "more": true,
         "followeds": [
             {
-                "py": "btystddjj",
-                "time": 1702198618954,
+                "py": "xzm",
+                "time": 1702460755790,
                 "mutual": false,
+                "follows": 38,
                 "remarkName": null,
-                "nickname": "被太阳晒甜的大姐姐",
-                "followeds": 4,
+                "nickname": "薛之毛",
+                "followeds": 6,
                 "vipType": 11,
-                "avatarUrl": "http://p2.music.126.net/r8KheeMJ1h6oFqz0qoCWIw==/18676304509474056.jpg",
+                "avatarDetail": null,
+                "followed": false,
+                "userType": 0,
+                "userId": 481151081,
+                "avatarUrl": "http://p1.music.126.net/sNmWFXjbE0RqURMhyxBJhg==/109951165387614752.jpg",
                 "authStatus": 0,
-                "gender": 2,
+                "gender": 1,
                 "expertTags": null,
                 "experts": null,
                 "accountStatus": 0,
-                "avatarDetail": null,
-                "userType": 0,
-                "userId": 320963872,
-                "followed": false,
-                "follows": 32,
-                "signature": null,
+                "signature": "我怎么都是余光",
                 "vipRights": {
                     "associator": {
                         "vipCode": 100,
                         "rights": true,
-                        "iconUrl": "https://p5.music.126.net/obj/wonDlsKUwrLClGjCm8Kx/17560008653/6b47/a01a/dbcb/fb56f4022db25b0deac9a81aac8a46f6.png"
+                        "iconUrl": "https://p6.music.126.net/obj/wonDlsKUwrLClGjCm8Kx/17560007615/7ec0/09fc/98ea/8165bc90c8246cd833a4ccb65c385bd7.png"
                     },
                     "musicPackage": {
                         "vipCode": 220,
@@ -36,13 +36,13 @@
                         "iconUrl": "https://p5.music.126.net/obj/wonDlsKUwrLClGjCm8Kx/21892874340/50e6/e81d/5292/2d693cbb98954e28d4d9fdb11be99a8b.png"
                     },
                     "redplus": null,
-                    "redVipAnnualCount": 1,
-                    "redVipLevel": 7
+                    "redVipAnnualCount": -1,
+                    "redVipLevel": 6
                 },
-                "eventCount": 0,
-                "playlistCount": 19
+                "eventCount": 2,
+                "playlistCount": 14
             }
         ],
-        "size": 3137036
+        "size": 3137636
     }
 }

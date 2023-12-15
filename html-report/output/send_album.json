@@ -1,7 +1,13 @@
 {
     "code": 404,
-    "data": null,
-    "msg": "Not Found",
+    "data": {
+        "code": 404,
+        "message": "私信发送资源不存在!",
+        "id": -1,
+        "sendblacklist": [],
+        "blacklist": []
+    },
+    "msg": "请求遇到问题",
     "others": {
         "status": 404,
         "body": {

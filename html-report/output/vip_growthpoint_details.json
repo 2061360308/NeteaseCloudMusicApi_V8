@@ -1,80 +1,9 @@
 {
     "code": 200,
-    "data": {
-        "code": 200,
-        "message": "success",
-        "data": {
-            "hasMore": true,
-            "details": [
-                {
-                    "descript": "会员过期成长值下降 成长值扣减",
-                    "growthPoint": -3,
-                    "time": 1702139633142,
-                    "resourceId": 0
-                },
-                {
-                    "descript": "会员过期成长值近期累计下降 成长值扣减",
-                    "growthPoint": -105,
-                    "time": 1702133264222,
-                    "resourceId": 0
-                },
-                {
-                    "descript": "会员过期成长值下降 成长值扣减",
-                    "growthPoint": -3,
-                    "time": 1699030576033,
-                    "resourceId": 0
-                },
-                {
-                    "descript": "会员过期成长值近期累计下降 成长值扣减",
-                    "growthPoint": -6,
-                    "time": 1698941460735,
-                    "resourceId": 0
-                },
-                {
-                    "descript": "会员过期成长值近期累计下降 成长值扣减",
-                    "growthPoint": -9,
-                    "time": 1698813521805,
-                    "resourceId": 0
-                },
-                {
-                    "descript": "会员过期成长值下降 成长值扣减",
-                    "growthPoint": -3,
-                    "time": 1698554875323,
-                    "resourceId": 0
-                },
-                {
-                    "descript": "会员过期成长值近期累计下降 成长值扣减",
-                    "growthPoint": -36,
-                    "time": 1698427731484,
-                    "resourceId": 0
-                },
-                {
-                    "descript": "会员过期成长值近期累计下降 成长值扣减",
-                    "growthPoint": -33,
-                    "time": 1697455333589,
-                    "resourceId": 0
-                },
-                {
-                    "descript": "会员过期成长值近期累计下降 成长值扣减",
-                    "growthPoint": -6,
-                    "time": 1696491513850,
-                    "resourceId": 0
-                },
-                {
-                    "descript": "会员过期成长值下降 成长值扣减",
-                    "growthPoint": -3,
-                    "time": 1696341524731,
-                    "resourceId": 0
-                },
-                {
-                    "descript": "会员过期成长值近期累计下降 成长值扣减",
-                    "growthPoint": -96,
-                    "time": 1696247508858,
-                    "resourceId": 0
-                }
-            ],
-            "maxTaskScore": 300,
-            "scoreDuration": 30
-        }
+    "data": "",
+    "msg": "请求遇到问题",
+    "others": {
+        "status": 200,
+        "body": ""
     }
 }

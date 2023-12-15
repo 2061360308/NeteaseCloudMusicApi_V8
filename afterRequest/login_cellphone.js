@@ -1,6 +1,11 @@
 export default (response) => {
   response = JSON.parse(response);
   if (response.body.code === 200) {
+    let cookie = response.cookie;
+    if (Array.isArray(cookie)) {
+      cookie = cookie.join(';');
+    }
+
     response = {
       status: 200,
       body: {
@@ -10,9 +15,9 @@ export default (response) => {
             "avatarImgIdStr"
           )
         ),
-        cookie: response.cookie.join(";"),
+        cookie: cookie,
       },
-      cookie: response.cookie,
+      cookie: cookie,
     };
   }
   return response;

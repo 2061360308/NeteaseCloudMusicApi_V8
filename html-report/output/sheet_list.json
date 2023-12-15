@@ -10,40 +10,17 @@
                     "icon": "http://p6.music.126.net/QFOOFnVzcwuC2UIz_ls5VA==/109951166560451228"
                 },
                 {
-                    "code": 9,
-                    "name": "人声",
-                    "icon": "http://p6.music.126.net/_uTo8Xrvl7k3pRF4VMz2RQ==/109951166560462495"
-                },
-                {
                     "code": 4,
                     "name": "吉他",
                     "icon": "http://p5.music.126.net/LDPkFucEhYCd9_J0cVLJgQ==/109951166560458655"
+                },
+                {
+                    "code": 9,
+                    "name": "人声",
+                    "icon": "http://p6.music.126.net/_uTo8Xrvl7k3pRF4VMz2RQ==/109951166560462495"
                 }
             ],
             "musicSheetSimpleInfoVOS": [
-                {
-                    "id": 245206,
-                    "sheetPackageId": 0,
-                    "name": "吉他谱",
-                    "type": [
-                        {
-                            "code": 4,
-                            "name": "吉他",
-                            "icon": "http://p5.music.126.net/LDPkFucEhYCd9_J0cVLJgQ==/109951166560458655"
-                        }
-                    ],
-                    "source": 2,
-                    "sourceDesc": "乐谱",
-                    "sourceIcon": null,
-                    "coverImageUrl": "http://m805.music.126.net/20231210172447/328facb488bb625e0cecb14c4fc3bc2f/b6f0/83aa/1e62/64bb2a2ded45348be1cf8a895bbc51c9.jpg",
-                    "totalPageSize": 8,
-                    "difficulty": "简单",
-                    "musicKey": "降A",
-                    "playVersion": "弹唱版",
-                    "chordName": "扫弦",
-                    "bpm": 67,
-                    "commentNum": 0
-                },
                 {
                     "id": 245207,
                     "sheetPackageId": 0,
@@ -58,12 +35,35 @@
                     "source": 2,
                     "sourceDesc": "乐谱",
                     "sourceIcon": null,
-                    "coverImageUrl": "http://m705.music.126.net/20231210172447/a531cdf8c720cff123351e35b9f0b190/2d10/95ef/f42b/60a351d2027f2fa52a8c1558eb2b7a67.jpg",
+                    "coverImageUrl": "http://m805.music.126.net/20231213181746/63a6e5e2b3ae3ff499e416c412a749a9/2d10/95ef/f42b/60a351d2027f2fa52a8c1558eb2b7a67.jpg",
                     "totalPageSize": 8,
                     "difficulty": "简单",
                     "musicKey": "降A",
                     "playVersion": "弹唱版",
                     "chordName": "分解和弦",
+                    "bpm": 67,
+                    "commentNum": 0
+                },
+                {
+                    "id": 245206,
+                    "sheetPackageId": 0,
+                    "name": "吉他谱",
+                    "type": [
+                        {
+                            "code": 4,
+                            "name": "吉他",
+                            "icon": "http://p5.music.126.net/LDPkFucEhYCd9_J0cVLJgQ==/109951166560458655"
+                        }
+                    ],
+                    "source": 2,
+                    "sourceDesc": "乐谱",
+                    "sourceIcon": null,
+                    "coverImageUrl": "http://m805.music.126.net/20231213181746/5bfc6bb3e5e66928ff4bd442c56388c2/b6f0/83aa/1e62/64bb2a2ded45348be1cf8a895bbc51c9.jpg",
+                    "totalPageSize": 8,
+                    "difficulty": "简单",
+                    "musicKey": "降A",
+                    "playVersion": "弹唱版",
+                    "chordName": "扫弦",
                     "bpm": 67,
                     "commentNum": 0
                 },
@@ -81,7 +81,7 @@
                     "source": 3,
                     "sourceDesc": "乐谱",
                     "sourceIcon": null,
-                    "coverImageUrl": "http://p5.music.126.net/obj/w5vDlcODw6rDizHCn8K3/13096338951/a858/2022115102043/IMG20220215101834.jpg",
+                    "coverImageUrl": "http://p6.music.126.net/obj/w5vDlcODw6rDizHCn8K3/13096338951/a858/2022115102043/IMG20220215101834.jpg",
                     "totalPageSize": 6,
                     "difficulty": "",
                     "musicKey": "降A",
@@ -104,7 +104,7 @@
                     "source": 3,
                     "sourceDesc": "乐谱",
                     "sourceIcon": null,
-                    "coverImageUrl": "http://p101.music.126.net/20231210172447/9370829b8a40959757b800bd86128a37/obj/w5vDlcODw6rDizHCn8K3/12833471248/90fe/2022024193945/1643024386.476319.JPG",
+                    "coverImageUrl": "http://p201.music.126.net/20231213181746/8dc38867d61a7e5331476e10bab1a944/obj/w5vDlcODw6rDizHCn8K3/12833471248/90fe/2022024193945/1643024386.476319.JPG",
                     "totalPageSize": 4,
                     "difficulty": "",
                     "musicKey": "降A",
@@ -127,7 +127,7 @@
                     "source": 3,
                     "sourceDesc": "乐谱",
                     "sourceIcon": null,
-                    "coverImageUrl": "http://p201.music.126.net/20231210172447/965eb46ea45b11f2002880059d70af58/obj/w5vDlcODw6rDizHCn8K3/15639824478/af2e/20226119316/1657503066.075924.JPG",
+                    "coverImageUrl": "http://p201.music.126.net/20231213181746/ab8a81bce53203e3bf7cbbfbd85e6726/obj/w5vDlcODw6rDizHCn8K3/15639824478/af2e/20226119316/1657503066.075924.JPG",
                     "totalPageSize": 3,
                     "difficulty": "",
                     "musicKey": "降A",

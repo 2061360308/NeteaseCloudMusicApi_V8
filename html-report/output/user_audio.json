@@ -1,10 +1,9 @@
 {
     "code": 200,
-    "data": {
-        "djRadios": [],
-        "hasMore": false,
-        "count": 0,
-        "subCount": 0,
-        "code": 200
+    "data": "",
+    "msg": "请求遇到问题",
+    "others": {
+        "status": 200,
+        "body": ""
     }
 }

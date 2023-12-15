@@ -4,12 +4,22 @@ import config from "./test/other/config.json" assert { type: "json" };
 import axios from "axios";
 import os from "os";
 
-// import afterRequest from "./util/afterRequest.js";
-
 const cookie = config.settings.cookie;
 
-const apiPath = "/inner/version";
-const element = config[apiPath].example[0];
+const apiPath = "/login/status";
+// const apiPath = "/captcha/sent";
+// const element = config[apiPath].example[0];
+
+const element = {};
+
+element.query={
+  phone: "15234941791",
+  captcha: "6917"
+};
+
+// element.query={
+//   phone: "15234941791",
+// };
 
 function getLocalIP() {
   const interfaces = os.networkInterfaces();
@@ -47,11 +57,16 @@ async function main(){
     data: request_param.data,
     headers: request_param.headers,
   });
-  
+
+  // console.log("response:::",response);
   
   let response_result = {headers: response.headers, data: response.data, status: response.status};
+
+  // console.log("response_result:::",JSON.stringify(response_result, null, 4));
   
   let result = api.afterRequest(JSON.stringify(response_result), request_param.crypto, request_param.apiName);
+
+  // console.log("result:::",JSON.stringify(result, null, 4));
   
   console.log(JSON.stringify(result, null, 4));
   

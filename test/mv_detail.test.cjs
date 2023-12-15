@@ -34,9 +34,6 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-beforeEach(async () => {
-  await sleep(5000); // 暂停 5 秒
-});
 
 // 根据传入的result生成一个期望的对象的格式
 function generateExpectObject(obj) {

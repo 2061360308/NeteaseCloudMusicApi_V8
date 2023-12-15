@@ -28,7 +28,9 @@
                         "latestLikedUsers": null,
                         "resourceTitle": null,
                         "resourceId": 0,
-                        "resourceOwnerId": 0
+                        "resourceOwnerId": 0,
+                        "extProperties": null,
+                        "xInfo": null
                     },
                     "latestLikedUsers": null,
                     "liked": false,
@@ -78,6 +80,39 @@
                 "commentTargetUrl": null,
                 "resourceUniqueId": "EVENT_7011055740",
                 "showFollowButton": false,
+                "eventTime": 1557922281188,
+                "uuid": "328B09E796049A728E54A1A5C98572A9",
+                "json": "{\"msg\":\"\",\"song\":{\"name\":\"Turn the Wolves\",\"id\":27975127,\"position\":4,\"alias\":[],\"status\":0,\"fee\":0,\"copyrightId\":0,\"disc\":\"1\",\"no\":4,\"artists\":[{\"name\":\"Lotte Kestner\",\"id\":64218,\"picId\":0,\"img1v1Id\":0,\"briefDesc\":\"\",\"picUrl\":\"http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg\",\"img1v1Url\":\"http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg\",\"albumSize\":0,\"alias\":[],\"trans\":\"\",\"musicSize\":0}],\"album\":{\"name\":\"The Bluebird of Happiness\",\"id\":2707232,\"type\":\"专辑\",\"size\":12,\"picId\":6674035581518773,\"blurPicUrl\":\"http://p2.music.126.net/qSltWF_1QMiyATld8kJldA==/6674035581518773.jpg\",\"companyId\":0,\"pic\":6674035581518773,\"picUrl\":\"http://p2.music.126.net/qSltWF_1QMiyATld8kJldA==/6674035581518773.jpg\",\"publishTime\":1361808000007,\"description\":\"\",\"tags\":\"\",\"company\":\"Saint Marie\",\"briefDesc\":\"\",\"artist\":{\"name\":\"\",\"id\":0,\"picId\":0,\"img1v1Id\":0,\"briefDesc\":\"\",\"picUrl\":\"http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg\",\"img1v1Url\":\"http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg\",\"albumSize\":0,\"alias\":[],\"trans\":\"\",\"musicSize\":0},\"songs\":[],\"alias\":[],\"status\":0,\"copyrightId\":0,\"commentThreadId\":\"R_AL_3_2707232\",\"artists\":[{\"name\":\"Lotte Kestner\",\"id\":64218,\"picId\":0,\"img1v1Id\":0,\"briefDesc\":\"\",\"picUrl\":\"http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg\",\"img1v1Url\":\"http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg\",\"albumSize\":0,\"alias\":[],\"trans\":\"\",\"musicSize\":0}],\"img80x80\":\"https://p1.music.126.net/qSltWF_1QMiyATld8kJldA==/6674035581518773.jpg?param=80x80x1\"},\"starred\":false,\"popularity\":20.0,\"score\":20,\"starredNum\":0,\"duration\":298053,\"playedNum\":0,\"dayPlays\":0,\"hearTime\":0,\"ringtone\":\"\",\"crbt\":null,\"audition\":null,\"copyFrom\":\"\",\"commentThreadId\":\"R_SO_4_27975127\",\"rtUrl\":null,\"ftype\":0,\"rtUrls\":[],\"copyright\":2,\"bMusic\":{\"name\":\"Turn the Wolves\",\"id\":49944201,\"size\":3578703,\"extension\":\"mp3\",\"sr\":44100,\"dfsId\":0,\"bitrate\":96000,\"playTime\":298053,\"volumeDelta\":0.176198},\"hMusic\":{\"name\":\"Turn the Wolves\",\"id\":49944199,\"size\":11926496,\"extension\":\"mp3\",\"sr\":44100,\"dfsId\":0,\"bitrate\":320000,\"playTime\":298053,\"volumeDelta\":0.0713337},\"mMusic\":{\"name\":\"Turn the Wolves\",\"id\":49944200,\"size\":5963787,\"extension\":\"mp3\",\"sr\":44100,\"dfsId\":0,\"bitrate\":160000,\"playTime\":298053,\"volumeDelta\":0.412567},\"lMusic\":{\"name\":\"Turn the Wolves\",\"id\":49944201,\"size\":3578703,\"extension\":\"mp3\",\"sr\":44100,\"dfsId\":0,\"bitrate\":96000,\"playTime\":298053,\"volumeDelta\":0.176198},\"rtype\":0,\"rurl\":null,\"mvid\":0,\"mp3Url\":null}}",
+                "xInfo": {
+                    "topEvent": false,
+                    "insiteForwardCount": 0,
+                    "info": {
+                        "commentThread": {
+                            "id": "A_EV_2_7011055740_32953014",
+                            "resourceInfo": null,
+                            "resourceType": 2,
+                            "commentCount": 0,
+                            "likedCount": 0,
+                            "shareCount": 0,
+                            "hotCount": 0,
+                            "latestLikedUsers": null,
+                            "resourceTitle": null,
+                            "resourceId": 0,
+                            "resourceOwnerId": 0,
+                            "extProperties": null,
+                            "xInfo": null
+                        },
+                        "latestLikedUsers": null,
+                        "liked": false,
+                        "comments": null,
+                        "resourceType": 2,
+                        "resourceId": 7011055740,
+                        "commentCount": 0,
+                        "likedCount": 0,
+                        "shareCount": 0,
+                        "threadId": "A_EV_2_7011055740_32953014"
+                    }
+                },
                 "user": {
                     "defaultAvatar": false,
                     "province": 440000,
@@ -129,37 +164,6 @@
                     "commonIdentity": null,
                     "followeds": 73
                 },
-                "json": "{\"msg\":\"\",\"song\":{\"name\":\"Turn the Wolves\",\"id\":27975127,\"position\":4,\"alias\":[],\"status\":0,\"fee\":0,\"copyrightId\":0,\"disc\":\"1\",\"no\":4,\"artists\":[{\"name\":\"Lotte Kestner\",\"id\":64218,\"picId\":0,\"img1v1Id\":0,\"briefDesc\":\"\",\"picUrl\":\"http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg\",\"img1v1Url\":\"http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg\",\"albumSize\":0,\"alias\":[],\"trans\":\"\",\"musicSize\":0}],\"album\":{\"name\":\"The Bluebird of Happiness\",\"id\":2707232,\"type\":\"专辑\",\"size\":12,\"picId\":6674035581518773,\"blurPicUrl\":\"http://p2.music.126.net/qSltWF_1QMiyATld8kJldA==/6674035581518773.jpg\",\"companyId\":0,\"pic\":6674035581518773,\"picUrl\":\"http://p2.music.126.net/qSltWF_1QMiyATld8kJldA==/6674035581518773.jpg\",\"publishTime\":1361808000007,\"description\":\"\",\"tags\":\"\",\"company\":\"Saint Marie\",\"briefDesc\":\"\",\"artist\":{\"name\":\"\",\"id\":0,\"picId\":0,\"img1v1Id\":0,\"briefDesc\":\"\",\"picUrl\":\"http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg\",\"img1v1Url\":\"http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg\",\"albumSize\":0,\"alias\":[],\"trans\":\"\",\"musicSize\":0},\"songs\":[],\"alias\":[],\"status\":0,\"copyrightId\":0,\"commentThreadId\":\"R_AL_3_2707232\",\"artists\":[{\"name\":\"Lotte Kestner\",\"id\":64218,\"picId\":0,\"img1v1Id\":0,\"briefDesc\":\"\",\"picUrl\":\"http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg\",\"img1v1Url\":\"http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg\",\"albumSize\":0,\"alias\":[],\"trans\":\"\",\"musicSize\":0}],\"img80x80\":\"https://p1.music.126.net/qSltWF_1QMiyATld8kJldA==/6674035581518773.jpg?param=80x80x1\"},\"starred\":false,\"popularity\":20.0,\"score\":20,\"starredNum\":0,\"duration\":298053,\"playedNum\":0,\"dayPlays\":0,\"hearTime\":0,\"ringtone\":\"\",\"crbt\":null,\"audition\":null,\"copyFrom\":\"\",\"commentThreadId\":\"R_SO_4_27975127\",\"rtUrl\":null,\"ftype\":0,\"rtUrls\":[],\"copyright\":2,\"bMusic\":{\"name\":\"Turn the Wolves\",\"id\":49944201,\"size\":3578703,\"extension\":\"mp3\",\"sr\":44100,\"dfsId\":0,\"bitrate\":96000,\"playTime\":298053,\"volumeDelta\":0.176198},\"hMusic\":{\"name\":\"Turn the Wolves\",\"id\":49944199,\"size\":11926496,\"extension\":\"mp3\",\"sr\":44100,\"dfsId\":0,\"bitrate\":320000,\"playTime\":298053,\"volumeDelta\":0.0713337},\"mMusic\":{\"name\":\"Turn the Wolves\",\"id\":49944200,\"size\":5963787,\"extension\":\"mp3\",\"sr\":44100,\"dfsId\":0,\"bitrate\":160000,\"playTime\":298053,\"volumeDelta\":0.412567},\"lMusic\":{\"name\":\"Turn the Wolves\",\"id\":49944201,\"size\":3578703,\"extension\":\"mp3\",\"sr\":44100,\"dfsId\":0,\"bitrate\":96000,\"playTime\":298053,\"volumeDelta\":0.176198},\"rtype\":0,\"rurl\":null,\"mvid\":0,\"mp3Url\":null}}",
-                "xInfo": {
-                    "topEvent": false,
-                    "insiteForwardCount": 0,
-                    "info": {
-                        "commentThread": {
-                            "id": "A_EV_2_7011055740_32953014",
-                            "resourceInfo": null,
-                            "resourceType": 2,
-                            "commentCount": 0,
-                            "likedCount": 0,
-                            "shareCount": 0,
-                            "hotCount": 0,
-                            "latestLikedUsers": null,
-                            "resourceTitle": null,
-                            "resourceId": 0,
-                            "resourceOwnerId": 0
-                        },
-                        "latestLikedUsers": null,
-                        "liked": false,
-                        "comments": null,
-                        "resourceType": 2,
-                        "resourceId": 7011055740,
-                        "commentCount": 0,
-                        "likedCount": 0,
-                        "shareCount": 0,
-                        "threadId": "A_EV_2_7011055740_32953014"
-                    }
-                },
-                "uuid": "328B09E796049A728E54A1A5C98572A9",
-                "eventTime": 1557922281188,
                 "extJsonInfo": {
                     "actId": 0,
                     "actIds": [],
@@ -189,6 +193,7 @@
                     "algScores": null,
                     "location": null,
                     "publishTag": null,
+                    "activityCode": null,
                     "recommendStatus": 0,
                     "firstRecommendTime": 0,
                     "momentScore": null

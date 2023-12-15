@@ -5,7 +5,7 @@
 > 理论上 基于 Google 的 V8 JavaScript 引擎 都可以快速调用
 
 <img src="https://img.shields.io/npm/v/NeteaseCloudMusicApi.svg" alt="Version">
-![License](https://img.shields.io/badge/license-MIT-yellow)
+<img src="https://img.shields.io/badge/license-MIT-yellow" />
 
 ### 依赖于
 

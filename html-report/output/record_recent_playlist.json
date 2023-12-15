@@ -1,9 +1,127 @@
 {
-    "code": 404,
-    "data": null,
-    "msg": "Not Found",
-    "others": {
-        "status": 200,
-        "body": ""
+    "code": 200,
+    "data": {
+        "code": 200,
+        "data": {
+            "total": 1,
+            "list": [
+                {
+                    "resourceId": "3206644690",
+                    "playTime": 1700452128835,
+                    "resourceType": "PLAYLIST",
+                    "data": {
+                        "id": 3206644690,
+                        "name": "清梦初仄喜欢的音乐",
+                        "coverImgUrl": "http://p1.music.126.net/Ui-FQutXaPpL9wyXP_I4pw==/109951168912562365.jpg",
+                        "creator": {
+                            "extProperties": {
+                                "avatarImgId_str": "109951165147619414"
+                            },
+                            "defaultAvatar": false,
+                            "province": 140000,
+                            "authStatus": 0,
+                            "followed": false,
+                            "avatarUrl": "http://p1.music.126.net/P_MH6CcLXfom0MO4Pvxe6A==/109951165147619414.jpg",
+                            "accountStatus": 0,
+                            "gender": 1,
+                            "city": 140600,
+                            "birthday": 1012492800000,
+                            "userId": 2121989064,
+                            "userType": 0,
+                            "nickname": "清梦初仄",
+                            "signature": "",
+                            "description": "",
+                            "detailDescription": "",
+                            "avatarImgId": 109951165147619410,
+                            "backgroundImgId": 109951162868128400,
+                            "backgroundUrl": "http://p1.music.126.net/2zSNIqTcpHL2jIvU6hG0EA==/109951162868128395.jpg",
+                            "authority": 0,
+                            "mutual": false,
+                            "expertTags": null,
+                            "experts": null,
+                            "djStatus": 0,
+                            "vipType": 0,
+                            "remarkName": null,
+                            "avatarImgIdStr": "109951165147619414",
+                            "backgroundImgIdStr": "109951162868128395",
+                            "xInfo": {
+                                "avatarImgId_str": "109951165147619414"
+                            }
+                        },
+                        "lastSong": {
+                            "name": "全都是戏",
+                            "id": 1363530763,
+                            "pst": 0,
+                            "t": 0,
+                            "ar": [
+                                {
+                                    "id": 14588567,
+                                    "name": "张晓涵",
+                                    "tns": [],
+                                    "alias": []
+                                }
+                            ],
+                            "alia": [],
+                            "pop": 90,
+                            "st": 0,
+                            "rt": "",
+                            "fee": 8,
+                            "v": 16,
+                            "crbt": null,
+                            "cf": "",
+                            "al": {
+                                "id": 78952804,
+                                "name": "全都是戏",
+                                "picUrl": "http://p2.music.126.net/65cefKnoQI2BMMasARKR7A==/109951164053772695.jpg",
+                                "tns": [],
+                                "pic_str": "109951164053772695",
+                                "pic": 109951164053772690
+                            },
+                            "dt": 269615,
+                            "h": {
+                                "br": 320000,
+                                "fid": 0,
+                                "size": 10787570,
+                                "vd": -44240
+                            },
+                            "m": {
+                                "br": 192000,
+                                "fid": 0,
+                                "size": 6472560,
+                                "vd": -41752
+                            },
+                            "l": {
+                                "br": 128000,
+                                "fid": 0,
+                                "size": 4315054,
+                                "vd": -40208
+                            },
+                            "a": null,
+                            "cd": "01",
+                            "no": 1,
+                            "rtUrl": null,
+                            "ftype": 0,
+                            "rtUrls": [],
+                            "djId": 0,
+                            "copyright": 0,
+                            "s_id": 0,
+                            "mark": 8192,
+                            "originCoverType": 1,
+                            "originSongSimpleData": null,
+                            "single": 0,
+                            "noCopyrightRcmd": null,
+                            "rurl": null,
+                            "mst": 9,
+                            "cp": 0,
+                            "rtype": 0,
+                            "mv": 10869382,
+                            "publishTime": 0
+                        }
+                    },
+                    "os": "android"
+                }
+            ]
+        },
+        "message": ""
     }
 }

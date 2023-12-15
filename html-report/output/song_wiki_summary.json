@@ -258,13 +258,13 @@
                                     "action": null,
                                     "uiElement": {
                                         "mainTitle": {
-                                            "title": "动感",
+                                            "title": "热血",
                                             "titleImgId": null,
                                             "titleImgUrl": null,
                                             "action": {
                                                 "clickAction": {
                                                     "action": 1,
-                                                    "targetUrl": "orpheus://rnpage?component=rn-tag-detail&tagId=195121&tagName=动感&isTheme=1"
+                                                    "targetUrl": "orpheus://rnpage?component=rn-tag-detail&tagId=194122&tagName=热血&isTheme=1"
                                                 }
                                             }
                                         },
@@ -296,13 +296,13 @@
                                     "action": null,
                                     "uiElement": {
                                         "mainTitle": {
-                                            "title": "KTV",
+                                            "title": "动感",
                                             "titleImgId": null,
                                             "titleImgUrl": null,
                                             "action": {
                                                 "clickAction": {
                                                     "action": 1,
-                                                    "targetUrl": "orpheus://rnpage?component=rn-tag-detail&tagId=198122&tagName=KTV&isTheme=1"
+                                                    "targetUrl": "orpheus://rnpage?component=rn-tag-detail&tagId=195121&tagName=动感&isTheme=1"
                                                 }
                                             }
                                         },
@@ -410,13 +410,13 @@
                                     "action": null,
                                     "uiElement": {
                                         "mainTitle": {
-                                            "title": "热血",
+                                            "title": "活力",
                                             "titleImgId": null,
                                             "titleImgUrl": null,
                                             "action": {
                                                 "clickAction": {
                                                     "action": 1,
-                                                    "targetUrl": "orpheus://rnpage?component=rn-tag-detail&tagId=194122&tagName=热血&isTheme=1"
+                                                    "targetUrl": "orpheus://rnpage?component=rn-tag-detail&tagId=197126&tagName=活力&isTheme=1"
                                                 }
                                             }
                                         },
@@ -448,13 +448,13 @@
                                     "action": null,
                                     "uiElement": {
                                         "mainTitle": {
-                                            "title": "活力",
+                                            "title": "KTV",
                                             "titleImgId": null,
                                             "titleImgUrl": null,
                                             "action": {
                                                 "clickAction": {
                                                     "action": 1,
-                                                    "targetUrl": "orpheus://rnpage?component=rn-tag-detail&tagId=197126&tagName=活力&isTheme=1"
+                                                    "targetUrl": "orpheus://rnpage?component=rn-tag-detail&tagId=198122&tagName=KTV&isTheme=1"
                                                 }
                                             }
                                         },
@@ -686,7 +686,7 @@
                                                 "title": "吉他",
                                                 "superscript": null,
                                                 "imageId": 0,
-                                                "imageUrl": "http://m805.music.126.net/20231210172419/9462f35009d381374017102027a234d5/e635/42de/bfe0/518b9b138941a4b2c7a96372995432ad.jpg",
+                                                "imageUrl": "http://m705.music.126.net/20231213181741/27233f3a108fd85c6dcbc09c6a366505/e635/42de/bfe0/518b9b138941a4b2c7a96372995432ad.jpg",
                                                 "imageWithoutTextUrl": null,
                                                 "md5": null,
                                                 "width": 0,
@@ -732,7 +732,7 @@
                                                 "title": "吉他",
                                                 "superscript": null,
                                                 "imageId": 0,
-                                                "imageUrl": "http://m705.music.126.net/20231210172419/622231a8decaa3372966efbf1b93bde6/487c/3b01/ad28/d0375e575508e6ff04cd70075f6738a3.jpg",
+                                                "imageUrl": "http://m805.music.126.net/20231213181741/b5f90b158aaf8a73f8065b6c667a40a0/487c/3b01/ad28/d0375e575508e6ff04cd70075f6738a3.jpg",
                                                 "imageWithoutTextUrl": null,
                                                 "md5": null,
                                                 "width": 0,
@@ -920,7 +920,7 @@
                                                 "title": null,
                                                 "superscript": null,
                                                 "imageId": 0,
-                                                "imageUrl": "http://p2.music.126.net/ORjLff7dKbs6Y7sHMBeQyA==/109951167773473519.jpg",
+                                                "imageUrl": "http://p1.music.126.net/ORjLff7dKbs6Y7sHMBeQyA==/109951167773473519.jpg",
                                                 "imageWithoutTextUrl": null,
                                                 "md5": null,
                                                 "width": 0,
@@ -981,7 +981,7 @@
                                                 "title": null,
                                                 "superscript": null,
                                                 "imageId": 0,
-                                                "imageUrl": "http://p2.music.126.net/qEP4XroyUlUGIzMAUyYF5Q==/109951165813802514.jpg",
+                                                "imageUrl": "http://p1.music.126.net/qEP4XroyUlUGIzMAUyYF5Q==/109951165813802514.jpg",
                                                 "imageWithoutTextUrl": null,
                                                 "md5": null,
                                                 "width": 0,
@@ -1037,7 +1037,7 @@
                                                 "title": null,
                                                 "superscript": null,
                                                 "imageId": 0,
-                                                "imageUrl": "http://p2.music.126.net/xzbNPFaq89sLHKFC9K9Qjw==/109951165478440773.jpg",
+                                                "imageUrl": "http://p1.music.126.net/xzbNPFaq89sLHKFC9K9Qjw==/109951165478440773.jpg",
                                                 "imageWithoutTextUrl": null,
                                                 "md5": null,
                                                 "width": 0,
@@ -1098,7 +1098,7 @@
                                                 "title": null,
                                                 "superscript": null,
                                                 "imageId": 0,
-                                                "imageUrl": "http://p2.music.126.net/fS_5RbP_4qg-RYreqp2tGg==/109951167558017839.jpg",
+                                                "imageUrl": "http://p1.music.126.net/fS_5RbP_4qg-RYreqp2tGg==/109951167558017839.jpg",
                                                 "imageWithoutTextUrl": null,
                                                 "md5": null,
                                                 "width": 0,
@@ -1154,7 +1154,7 @@
                                                 "title": null,
                                                 "superscript": null,
                                                 "imageId": 0,
-                                                "imageUrl": "http://p2.music.126.net/IeeYUbPocXR3usFevNnxDA==/109951168626391156.jpg",
+                                                "imageUrl": "http://p1.music.126.net/IeeYUbPocXR3usFevNnxDA==/109951168626391156.jpg",
                                                 "imageWithoutTextUrl": null,
                                                 "md5": null,
                                                 "width": 0,
@@ -1215,7 +1215,7 @@
                                                 "title": null,
                                                 "superscript": null,
                                                 "imageId": 0,
-                                                "imageUrl": "http://p2.music.126.net/WNfyUA0wK-5FfdKxFpG6sw==/109951168526842833.jpg",
+                                                "imageUrl": "http://p1.music.126.net/WNfyUA0wK-5FfdKxFpG6sw==/109951168526842833.jpg",
                                                 "imageWithoutTextUrl": null,
                                                 "md5": null,
                                                 "width": 0,
@@ -1276,7 +1276,7 @@
                                                 "title": null,
                                                 "superscript": null,
                                                 "imageId": 0,
-                                                "imageUrl": "http://p2.music.126.net/EVSkewDLhHrMlq775kTRjQ==/109951167555282389.jpg",
+                                                "imageUrl": "http://p1.music.126.net/EVSkewDLhHrMlq775kTRjQ==/109951167555282389.jpg",
                                                 "imageWithoutTextUrl": null,
                                                 "md5": null,
                                                 "width": 0,
@@ -1337,7 +1337,7 @@
                                                 "title": null,
                                                 "superscript": null,
                                                 "imageId": 0,
-                                                "imageUrl": "http://p2.music.126.net/PpKOmwNROjZEHiLNNVQAgg==/109951168294701633.jpg",
+                                                "imageUrl": "http://p1.music.126.net/PpKOmwNROjZEHiLNNVQAgg==/109951168294701633.jpg",
                                                 "imageWithoutTextUrl": null,
                                                 "md5": null,
                                                 "width": 0,
@@ -1398,7 +1398,7 @@
                                                 "title": null,
                                                 "superscript": null,
                                                 "imageId": 0,
-                                                "imageUrl": "http://p2.music.126.net/LZEe_tMtGiu53b9g_6NRmw==/109951167579026487.jpg",
+                                                "imageUrl": "http://p1.music.126.net/LZEe_tMtGiu53b9g_6NRmw==/109951167579026487.jpg",
                                                 "imageWithoutTextUrl": null,
                                                 "md5": null,
                                                 "width": 0,
@@ -1459,7 +1459,7 @@
                                                 "title": null,
                                                 "superscript": null,
                                                 "imageId": 0,
-                                                "imageUrl": "http://p2.music.126.net/Fi9KEJdRBFCc55m59ZA_Rw==/109951167623049821.jpg",
+                                                "imageUrl": "http://p1.music.126.net/Fi9KEJdRBFCc55m59ZA_Rw==/109951167623049821.jpg",
                                                 "imageWithoutTextUrl": null,
                                                 "md5": null,
                                                 "width": 0,
@@ -1520,7 +1520,7 @@
                                                 "title": null,
                                                 "superscript": null,
                                                 "imageId": 0,
-                                                "imageUrl": "http://p2.music.126.net/qi_XiqLxjK2pg4dwymOfRQ==/109951167870983272.jpg",
+                                                "imageUrl": "http://p1.music.126.net/qi_XiqLxjK2pg4dwymOfRQ==/109951167870983272.jpg",
                                                 "imageWithoutTextUrl": null,
                                                 "md5": null,
                                                 "width": 0,
@@ -1581,7 +1581,7 @@
                                                 "title": null,
                                                 "superscript": null,
                                                 "imageId": 0,
-                                                "imageUrl": "http://p2.music.126.net/vfcnLOpwg0vNOM5xFiATvg==/109951167743873184.jpg",
+                                                "imageUrl": "http://p1.music.126.net/vfcnLOpwg0vNOM5xFiATvg==/109951167743873184.jpg",
                                                 "imageWithoutTextUrl": null,
                                                 "md5": null,
                                                 "width": 0,
@@ -1642,7 +1642,7 @@
                                                 "title": null,
                                                 "superscript": null,
                                                 "imageId": 0,
-                                                "imageUrl": "http://p2.music.126.net/VXqVAs8P4ko7j7ft94KUiw==/109951167898699349.jpg",
+                                                "imageUrl": "http://p1.music.126.net/VXqVAs8P4ko7j7ft94KUiw==/109951167898699349.jpg",
                                                 "imageWithoutTextUrl": null,
                                                 "md5": null,
                                                 "width": 0,
@@ -1703,7 +1703,7 @@
                                                 "title": null,
                                                 "superscript": null,
                                                 "imageId": 0,
-                                                "imageUrl": "http://p2.music.126.net/gWAve6Vnbv0vd6WKa3tGSA==/109951163173817656.jpg",
+                                                "imageUrl": "http://p1.music.126.net/gWAve6Vnbv0vd6WKa3tGSA==/109951163173817656.jpg",
                                                 "imageWithoutTextUrl": null,
                                                 "md5": null,
                                                 "width": 0,
@@ -1764,7 +1764,7 @@
                                                 "title": null,
                                                 "superscript": null,
                                                 "imageId": 0,
-                                                "imageUrl": "http://p2.music.126.net/l3o9cIqge-ri40WApbwOpw==/109951168271898836.jpg",
+                                                "imageUrl": "http://p1.music.126.net/l3o9cIqge-ri40WApbwOpw==/109951168271898836.jpg",
                                                 "imageWithoutTextUrl": null,
                                                 "md5": null,
                                                 "width": 0,
@@ -2160,7 +2160,7 @@
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 68009,
+                                        "playCount": 68114,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },
@@ -2224,11 +2224,79 @@
                             "resources": [
                                 {
                                     "resourceType": "PLAYLIST",
+                                    "resourceId": "2630956211",
+                                    "resourceUrl": null,
+                                    "resourceExtInfo": null,
+                                    "resourceExt": {
+                                        "playCount": 180268,
+                                        "specialType": 0,
+                                        "musicMemoryTextType": 0
+                                    },
+                                    "resourcePolicyId": null,
+                                    "action": {
+                                        "clickAction": {
+                                            "action": 1,
+                                            "targetUrl": "orpheus://playlist/2630956211"
+                                        }
+                                    },
+                                    "uiElement": {
+                                        "mainTitle": {
+                                            "title": "【日系】也许适合在看漫画时听的歌",
+                                            "titleImgId": null,
+                                            "titleImgUrl": null,
+                                            "action": null
+                                        },
+                                        "subTitles": null,
+                                        "images": [
+                                            {
+                                                "tag": null,
+                                                "title": null,
+                                                "superscript": null,
+                                                "imageId": 0,
+                                                "imageUrl": "http://p1.music.126.net/1y377jy8bx--L7Gzxa6PBw==/109951168956184618.jpg",
+                                                "imageWithoutTextUrl": null,
+                                                "md5": null,
+                                                "width": 0,
+                                                "height": 0,
+                                                "action": null
+                                            }
+                                        ],
+                                        "labels": null,
+                                        "textLinks": null,
+                                        "descriptions": null,
+                                        "icons": null,
+                                        "buttons": null,
+                                        "videos": null,
+                                        "superscript": null,
+                                        "type": null,
+                                        "coverTagVO": null,
+                                        "colorList": null
+                                    },
+                                    "valid": true,
+                                    "alg": "alg_cf",
+                                    "scm": null,
+                                    "visibleStatus": null
+                                }
+                            ]
+                        },
+                        {
+                            "id": null,
+                            "blockId": null,
+                            "creativeId": null,
+                            "creativeType": null,
+                            "position": null,
+                            "action": null,
+                            "uiElement": null,
+                            "adInfo": null,
+                            "code": null,
+                            "resources": [
+                                {
+                                    "resourceType": "PLAYLIST",
                                     "resourceId": "823688698",
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 365037,
+                                        "playCount": 365062,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },
@@ -2296,7 +2364,7 @@
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 556775,
+                                        "playCount": 556880,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },
@@ -2364,7 +2432,7 @@
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 98875,
+                                        "playCount": 98975,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },
@@ -2432,7 +2500,7 @@
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 27823,
+                                        "playCount": 28138,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },
@@ -2500,7 +2568,7 @@
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 1824299,
+                                        "playCount": 1824537,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },
@@ -2568,7 +2636,7 @@
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 199615,
+                                        "playCount": 200081,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },
@@ -2632,79 +2700,11 @@
                             "resources": [
                                 {
                                     "resourceType": "PLAYLIST",
-                                    "resourceId": "2159728433",
-                                    "resourceUrl": null,
-                                    "resourceExtInfo": null,
-                                    "resourceExt": {
-                                        "playCount": 52196,
-                                        "specialType": 0,
-                                        "musicMemoryTextType": 0
-                                    },
-                                    "resourcePolicyId": null,
-                                    "action": {
-                                        "clickAction": {
-                                            "action": 1,
-                                            "targetUrl": "orpheus://playlist/2159728433"
-                                        }
-                                    },
-                                    "uiElement": {
-                                        "mainTitle": {
-                                            "title": "【ACG】边听边收藏五年的二次元歌单",
-                                            "titleImgId": null,
-                                            "titleImgUrl": null,
-                                            "action": null
-                                        },
-                                        "subTitles": null,
-                                        "images": [
-                                            {
-                                                "tag": null,
-                                                "title": null,
-                                                "superscript": null,
-                                                "imageId": 0,
-                                                "imageUrl": "http://p1.music.126.net/bBog_zvuUFuLRQvnd8DsgA==/109951164636810854.jpg",
-                                                "imageWithoutTextUrl": null,
-                                                "md5": null,
-                                                "width": 0,
-                                                "height": 0,
-                                                "action": null
-                                            }
-                                        ],
-                                        "labels": null,
-                                        "textLinks": null,
-                                        "descriptions": null,
-                                        "icons": null,
-                                        "buttons": null,
-                                        "videos": null,
-                                        "superscript": null,
-                                        "type": null,
-                                        "coverTagVO": null,
-                                        "colorList": null
-                                    },
-                                    "valid": true,
-                                    "alg": "alg_cf",
-                                    "scm": null,
-                                    "visibleStatus": null
-                                }
-                            ]
-                        },
-                        {
-                            "id": null,
-                            "blockId": null,
-                            "creativeId": null,
-                            "creativeType": null,
-                            "position": null,
-                            "action": null,
-                            "uiElement": null,
-                            "adInfo": null,
-                            "code": null,
-                            "resources": [
-                                {
-                                    "resourceType": "PLAYLIST",
                                     "resourceId": "330322044",
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 123239,
+                                        "playCount": 123365,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },
@@ -2772,7 +2772,7 @@
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 59840,
+                                        "playCount": 59932,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },
@@ -2840,7 +2840,7 @@
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 1635082,
+                                        "playCount": 1638332,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },
@@ -2908,7 +2908,7 @@
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 55027,
+                                        "playCount": 55232,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },
@@ -2972,11 +2972,79 @@
                             "resources": [
                                 {
                                     "resourceType": "PLAYLIST",
+                                    "resourceId": "2303123144",
+                                    "resourceUrl": null,
+                                    "resourceExtInfo": null,
+                                    "resourceExt": {
+                                        "playCount": 549648,
+                                        "specialType": 0,
+                                        "musicMemoryTextType": 0
+                                    },
+                                    "resourcePolicyId": null,
+                                    "action": {
+                                        "clickAction": {
+                                            "action": 1,
+                                            "targetUrl": "orpheus://playlist/2303123144"
+                                        }
+                                    },
+                                    "uiElement": {
+                                        "mainTitle": {
+                                            "title": "「ACG×日系」那个瞬间泪与燃",
+                                            "titleImgId": null,
+                                            "titleImgUrl": null,
+                                            "action": null
+                                        },
+                                        "subTitles": null,
+                                        "images": [
+                                            {
+                                                "tag": null,
+                                                "title": null,
+                                                "superscript": null,
+                                                "imageId": 0,
+                                                "imageUrl": "http://p1.music.126.net/IiDZ16_Kd7SnpEApfDG9gA==/109951164757684416.jpg",
+                                                "imageWithoutTextUrl": null,
+                                                "md5": null,
+                                                "width": 0,
+                                                "height": 0,
+                                                "action": null
+                                            }
+                                        ],
+                                        "labels": null,
+                                        "textLinks": null,
+                                        "descriptions": null,
+                                        "icons": null,
+                                        "buttons": null,
+                                        "videos": null,
+                                        "superscript": null,
+                                        "type": null,
+                                        "coverTagVO": null,
+                                        "colorList": null
+                                    },
+                                    "valid": true,
+                                    "alg": "alg_cf",
+                                    "scm": null,
+                                    "visibleStatus": null
+                                }
+                            ]
+                        },
+                        {
+                            "id": null,
+                            "blockId": null,
+                            "creativeId": null,
+                            "creativeType": null,
+                            "position": null,
+                            "action": null,
+                            "uiElement": null,
+                            "adInfo": null,
+                            "code": null,
+                            "resources": [
+                                {
+                                    "resourceType": "PLAYLIST",
                                     "resourceId": "2528443226",
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 241935,
+                                        "playCount": 242401,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },
@@ -3044,7 +3112,7 @@
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 57715,
+                                        "playCount": 57828,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },
@@ -3112,7 +3180,7 @@
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 300462,
+                                        "playCount": 301474,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },
@@ -3180,7 +3248,7 @@
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 90483,
+                                        "playCount": 90508,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },
@@ -3244,79 +3312,11 @@
                             "resources": [
                                 {
                                     "resourceType": "PLAYLIST",
-                                    "resourceId": "522440724",
-                                    "resourceUrl": null,
-                                    "resourceExtInfo": null,
-                                    "resourceExt": {
-                                        "playCount": 36740,
-                                        "specialType": 0,
-                                        "musicMemoryTextType": 0
-                                    },
-                                    "resourcePolicyId": null,
-                                    "action": {
-                                        "clickAction": {
-                                            "action": 1,
-                                            "targetUrl": "orpheus://playlist/522440724"
-                                        }
-                                    },
-                                    "uiElement": {
-                                        "mainTitle": {
-                                            "title": "ACG||单曲循环豪华套餐",
-                                            "titleImgId": null,
-                                            "titleImgUrl": null,
-                                            "action": null
-                                        },
-                                        "subTitles": null,
-                                        "images": [
-                                            {
-                                                "tag": null,
-                                                "title": null,
-                                                "superscript": null,
-                                                "imageId": 0,
-                                                "imageUrl": "http://p1.music.126.net/J6A2Gd-kqXZ4oSzv1Kon_w==/109951165523706602.jpg",
-                                                "imageWithoutTextUrl": null,
-                                                "md5": null,
-                                                "width": 0,
-                                                "height": 0,
-                                                "action": null
-                                            }
-                                        ],
-                                        "labels": null,
-                                        "textLinks": null,
-                                        "descriptions": null,
-                                        "icons": null,
-                                        "buttons": null,
-                                        "videos": null,
-                                        "superscript": null,
-                                        "type": null,
-                                        "coverTagVO": null,
-                                        "colorList": null
-                                    },
-                                    "valid": true,
-                                    "alg": "alg_cf",
-                                    "scm": null,
-                                    "visibleStatus": null
-                                }
-                            ]
-                        },
-                        {
-                            "id": null,
-                            "blockId": null,
-                            "creativeId": null,
-                            "creativeType": null,
-                            "position": null,
-                            "action": null,
-                            "uiElement": null,
-                            "adInfo": null,
-                            "code": null,
-                            "resources": [
-                                {
-                                    "resourceType": "PLAYLIST",
                                     "resourceId": "7103540849",
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 339383,
+                                        "playCount": 339640,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },
@@ -3384,7 +3384,7 @@
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 3115969,
+                                        "playCount": 3118773,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },
@@ -3452,7 +3452,7 @@
                                     "resourceUrl": null,
                                     "resourceExtInfo": null,
                                     "resourceExt": {
-                                        "playCount": 58710,
+                                        "playCount": 60193,
                                         "specialType": 0,
                                         "musicMemoryTextType": 0
                                     },

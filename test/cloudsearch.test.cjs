@@ -1,22 +1,55 @@
-// import api from "../index.js";
-// import config from "./other/config.json" assert { type: "json" };
-// import axios from "axios";
-// import os from "os";
+// Description: test /cloudsearch
+// Author: Lutong
+// explain: 说明 : 调用此接口 , 传入搜索关键词可以搜索该音乐 / 专辑 / 歌手 / 歌单 / 用户 ,
+// 关键词可以多个 , 以空格隔开 , 如 " 周杰伦 搁浅 "( 不需要登录 ), 可通过 
 
 const api = require("../dist/NeteaseCloudMusicApi.cjs");
 const os = require("os");
+const fs = require("fs");
 let config = require("./other/config.json");
 const axios = require("axios");
+const path = require("path");
+const util = require("util");
+const { addMsg } = require("jest-html-reporters/helper");
 
-console.log(config);
-
-
-// import afterRequest from "./util/afterRequest.js";
+const apiPath = "/cloudsearch";
 
 const cookie = config.settings.cookie;
 
-const apiPath = "/cloudsearch";
-const element = config[apiPath].example[0];
+function outputJson(obj) {
+  name_str = apiPath.replace(/\//g, "_"); // 替换所有的 '/' 为 '_'
+  name_str = name_str.replace(/^_/, ""); // 如果字符串以 '_' 开头，删除这个 '_'
+
+  // 获取项目根目录的路径
+  const projectRootPath = process.cwd();
+
+  // 基于项目根目录的路径
+  const filePath = path.join(projectRootPath, `/html-report/output/${name_str}.json`);
+  fs.writeFileSync(filePath, JSON.stringify(obj, null, 4));(filePath, JSON.stringify(obj, null, 4));
+  return filePath;
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+
+// 根据传入的result生成一个期望的对象的格式
+function generateExpectObject(obj) {
+  const result = {};
+  for (const key in obj) {
+    if (obj[key] === null) {
+      result[key] = null;
+    } else if (Array.isArray(obj[key])) {
+      result[key] = obj[key].map(generateExpectObject);
+    } else if (typeof obj[key] === "object") {
+      result[key] = generateExpectObject(obj[key]);
+    } else {
+      result[key] = expect.any(obj[key].constructor);
+    }
+  }
+  return result;
+}
 
 function getLocalIP() {
   const interfaces = os.networkInterfaces();
@@ -30,25 +63,37 @@ function getLocalIP() {
   }
 }
 
-async function main(){
-  let request_param = api.beforeRequest(apiPath, {
-    ...element.query,
-    cookie: cookie,
-    realIP: getLocalIP(),
-  });
-  
-  const response = await axios({
-    method: request_param.method,
-    url: request_param.url,
-    data: request_param.data,
-    headers: request_param.headers,
-  });
-  
-  let response_result = {headers: response.headers, data: response.data, status: response.status};
-  
-  let result = api.afterRequest(JSON.stringify(response_result), request_param.crypto, request_param.apiName);
-  
-  // console.log(JSON.stringify(result, null, 4));
+async function main() {
+  for (const [index, element] of config[apiPath].example.entries()) {
+    let request_param = api.beforeRequest(apiPath, {
+      ...element.query,
+      cookie: cookie,
+      realIP: getLocalIP(),
+    });
+    
+    const response = await axios({
+      method: request_param.method,
+      url: request_param.url,
+      data: request_param.data,
+      headers: request_param.headers,
+    });
+    
+    let response_result = {headers: response.headers, data: response.data, status: response.status};
+    
+    let result = api.afterRequest(JSON.stringify(response_result), request_param.crypto, request_param.apiName);
+
+    let filePath = outputJson(result);
+    // console.log(filePath);
+    await addMsg({ message:  `消息输出：file:///${filePath}`});
+
+    try{
+      expect(result.code === 200 || result.data.code === 200).toBeTruthy();
+    }catch (error) {
+      throw new Error(`error：${error}\nresult：${JSON.stringify(result, null, 4)}\nresponse: ${JSON.stringify(response_result, null, 4)}`);
+    }
+  }
 }
 
-main();
+test(apiPath, async () => {
+  await main();
+});

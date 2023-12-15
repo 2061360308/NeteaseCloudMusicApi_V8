@@ -1,12 +1,9 @@
 {
     "code": 200,
-    "data": {
-        "code": 200,
-        "data": {
-            "count": 0,
-            "list": [],
-            "hasMore": false
-        },
-        "message": ""
+    "data": "",
+    "msg": "请求遇到问题",
+    "others": {
+        "status": 200,
+        "body": ""
     }
 }

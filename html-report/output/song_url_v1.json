@@ -4,7 +4,7 @@
         "data": [
             {
                 "id": 33894312,
-                "url": "http://m8.music.126.net/20231210173705/7b3e2cdb30a2827f637b54003be6ff73/ymusic/0fd6/4f65/43ed/a8772889f38dfcb91c04da915b301617.mp3",
+                "url": "http://m7.music.126.net/20231213184348/9cf94f726d28a9630adcb3089f3755fe/ymusic/0fd6/4f65/43ed/a8772889f38dfcb91c04da915b301617.mp3",
                 "br": 320000,
                 "size": 10691439,
                 "md5": "a8772889f38dfcb91c04da915b301617",
@@ -43,27 +43,25 @@
             },
             {
                 "id": 405998841,
-                "url": "http://m802.music.126.net/20231210173705/e2dc777f34b3d1d4efe66d2331369c1f/jd-musicrep-ts/0543/8721/0d4a/e716f340b10313989dc65ea842465e89.mp3",
-                "br": 128018,
-                "size": 321036,
-                "md5": "e716f340b10313989dc65ea842465e89",
+                "url": "http://m802.music.126.net/20231213184348/4ffd2fef6ae8508d3f0aaed39b0506ea/jd-musicrep-ts/3132/d656/2d52/bb5a63d3fcdd8afdc21cb939d732e677.mp3",
+                "br": 128012,
+                "size": 481115,
+                "md5": "bb5a63d3fcdd8afdc21cb939d732e677",
                 "code": 200,
                 "expi": 1200,
-                "type": "MP3",
-                "gain": 2,
+                "type": "mp3",
+                "gain": -0.0001,
                 "peak": 0,
                 "fee": 1,
                 "uf": null,
                 "payed": 0,
-                "flag": 1284,
+                "flag": 132356,
                 "canExtend": false,
                 "freeTrialInfo": {
-                    "fragmentType": 1003,
-                    "start": 2,
-                    "end": 22,
-                    "algData": {
-                        "audioEffect": -1
-                    }
+                    "fragmentType": -1,
+                    "start": 0,
+                    "end": 30,
+                    "algData": null
                 },
                 "level": "standard",
                 "encodeType": "mp3",
@@ -85,7 +83,7 @@
                 "rightSource": 0,
                 "podcastCtrp": null,
                 "effectTypes": null,
-                "time": 20035
+                "time": 30040
             }
         ],
         "code": 200

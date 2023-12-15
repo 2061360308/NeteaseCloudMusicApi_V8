@@ -1,94 +1,9 @@
 {
     "code": 200,
-    "data": {
-        "code": 200,
-        "data": {
-            "follow": [
-                {
-                    "py": "云推歌小助手",
-                    "avatarUrl": "https://p2.music.126.net/0Z0hCCVo1vgPgiS3Pc6pIQ==/109951167129500403.jpg",
-                    "gender": 0,
-                    "nickname": "云推歌小助手",
-                    "userId": 6459374538,
-                    "expertTags": null,
-                    "experts": null,
-                    "remarkName": null,
-                    "authStatus": 1,
-                    "userType": 10,
-                    "vipType": 0,
-                    "mutual": false
-                },
-                {
-                    "py": "云音乐客服",
-                    "avatarUrl": "https://p2.music.126.net/b4Z8qCkxtaQIzzdJi1dSVg==/109951167441819948.jpg",
-                    "gender": 2,
-                    "nickname": "云音乐客服",
-                    "userId": 253335632,
-                    "expertTags": null,
-                    "experts": null,
-                    "remarkName": null,
-                    "authStatus": 1,
-                    "userType": 10,
-                    "vipType": 11,
-                    "mutual": false
-                },
-                {
-                    "py": "云音乐VIP",
-                    "avatarUrl": "https://p2.music.126.net/ZVQwrUkMExU9Npzn22ak0A==/109951164879572466.jpg",
-                    "gender": 0,
-                    "nickname": "云音乐VIP",
-                    "userId": 1452176465,
-                    "expertTags": null,
-                    "experts": null,
-                    "remarkName": null,
-                    "authStatus": 1,
-                    "userType": 3,
-                    "vipType": 11,
-                    "mutual": false
-                },
-                {
-                    "py": "音乐挑战小助手",
-                    "avatarUrl": "https://p2.music.126.net/hPl_9ix8iGwbidGFa5XYEA==/109951165290007788.jpg",
-                    "gender": 0,
-                    "nickname": "音乐挑战小助手",
-                    "userId": 3265840429,
-                    "expertTags": null,
-                    "experts": null,
-                    "remarkName": null,
-                    "authStatus": 1,
-                    "userType": 10,
-                    "vipType": 0,
-                    "mutual": false
-                },
-                {
-                    "py": "云贝小助手",
-                    "avatarUrl": "https://p2.music.126.net/QwX2jcWETpEKxWqhgtuUwA==/109951165121122973.jpg",
-                    "gender": 0,
-                    "nickname": "云贝小助手",
-                    "userId": 3251549719,
-                    "expertTags": null,
-                    "experts": null,
-                    "remarkName": null,
-                    "authStatus": 1,
-                    "userType": 10,
-                    "vipType": 0,
-                    "mutual": false
-                },
-                {
-                    "py": "因乐交友通知",
-                    "avatarUrl": "https://p2.music.126.net/T0QYD7CUqAbBIdd1qNimvQ==/109951167282171008.jpg",
-                    "gender": 2,
-                    "nickname": "因乐交友通知",
-                    "userId": 1792140853,
-                    "expertTags": null,
-                    "experts": null,
-                    "remarkName": null,
-                    "authStatus": 1,
-                    "userType": 10,
-                    "vipType": 0,
-                    "mutual": false
-                }
-            ]
-        }
+    "data": "",
+    "msg": "请求遇到问题",
+    "others": {
+        "status": 200,
+        "body": ""
     }
 }

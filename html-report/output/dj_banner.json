@@ -1,9 +1,32 @@
 {
-    "code": 404,
-    "data": null,
-    "msg": "Not Found",
-    "others": {
-        "status": 200,
-        "body": ""
+    "code": 200,
+    "data": {
+        "data": [
+            {
+                "targetId": 0,
+                "targetType": 60004,
+                "pic": "http://p1.music.126.net/886niSW0LQJChzXMS_M6yA==/109951169157023902.jpg",
+                "url": "https://y.music.163.com/m/at/656edc0930f631a5281d3642",
+                "typeTitle": "活动",
+                "exclusive": false
+            },
+            {
+                "targetId": 2532096486,
+                "targetType": 60001,
+                "pic": "http://p1.music.126.net/Hm6KAyWb4hcrKZ3JPJTRAA==/109951169157038631.jpg",
+                "url": "orpheus://program/2532096486",
+                "typeTitle": "故事",
+                "exclusive": false
+            },
+            {
+                "targetId": 992891336,
+                "targetType": 60000,
+                "pic": "http://p1.music.126.net/2x0O3n9rgxmb5543nd5okQ==/109951169157145944.jpg",
+                "url": "orpheus://djradio/992891336",
+                "typeTitle": "有声书",
+                "exclusive": false
+            }
+        ],
+        "code": 200
     }
 }

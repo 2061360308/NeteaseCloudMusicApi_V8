@@ -38,6 +38,25 @@ module.exports = [
   },
   {
     optimization: {
+      minimize: false,
+    },
+    entry: "./index.js",
+    output: {
+      filename: "NeteaseCloudMusicApi.ejs",
+      path: __dirname + "/dist",
+      // library: "NeteaseCloudMusicApi",
+      libraryExport: "default",
+      libraryTarget: 'commonjs2',
+      globalObject: 'this'
+    },
+    experiments: {
+      outputModule: false,
+    },
+    mode: "production",
+    plugins: [new webpack.BannerPlugin({ banner: global_patch, raw: true })],
+  },
+  {
+    optimization: {
       minimize: true,
     },
     entry: "./index.js",

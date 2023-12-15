@@ -28,21 +28,40 @@ const afterRequest = (result, crypto, apiName) => {
 
   const body = result.data;
 
-  let cookie = result.headers["set-cookie"];
+  // let cookie = result.headers["Set-Cookie"];
+  let cookie;
+
+  for (let key in result.headers) {
+    if (key.toLowerCase() === 'set-cookie') {
+      cookie = result.headers[key];
+      break;
+    }
+  }
+  // console.log("得到了set-cookie 的值：", cookie);
 
   // 处理字符串格式的 cookie 到一个对象
-  if (typeof cookie === "string") {
-    cookie = cookieToJson(cookie);
+  // if (typeof cookie === "string") {
+  //   console.log("cookie 是 string", cookie);
+  //   cookie = cookieToJson(cookie);
+  // }
+
+  // 处理数组格式的 cookie
+  if (Array.isArray(cookie)) {
+    cookie = cookie.join(';');
   }
 
   // 对象转换为数组
-  if(typeof cookie === 'object' && cookie !== null){
-    cookie = Object.entries(cookie).map(([key, value]) => `${key}=${value}`);
-  }
+  // if(typeof cookie === 'object' && cookie !== null){
+  //   console.log("cookie 是 object", cookie);
+  //   cookie = Object.entries(cookie).map(([key, value]) => `${key}=${value}`);
+  // }
+
+  answer.cookie = cookie || "";
   
-  answer.cookie = (cookie || []).map((x) =>
-    x.replace(/\s*Domain=[^(;|$)]+;*/, "")
-  );
+  // 不是浏览器Domain属性不重要
+  // answer.cookie = (cookie || []).map((x) =>
+  //   x.replace(/\s*Domain=[^(;|$)]+;*/, "")
+  // );
 
   try {
     if (crypto === "eapi") {

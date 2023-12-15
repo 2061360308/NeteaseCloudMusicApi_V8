@@ -1,9 +1,97 @@
 {
-    "code": 404,
-    "data": null,
-    "msg": "Not Found",
-    "others": {
-        "status": 200,
-        "body": ""
+    "code": 200,
+    "data": {
+        "code": 200,
+        "data": {
+            "total": 1,
+            "list": [
+                {
+                    "resourceId": "1830161248",
+                    "playTime": 1702394009672,
+                    "resourceType": "SONG",
+                    "data": {
+                        "name": "我们点燃来时的路 撑着我们继续向前行走",
+                        "id": 1830161248,
+                        "pst": 0,
+                        "t": 0,
+                        "ar": [
+                            {
+                                "id": 12873554,
+                                "name": "Yzz",
+                                "tns": [],
+                                "alias": []
+                            },
+                            {
+                                "id": 32829967,
+                                "name": "Yzz Beats",
+                                "tns": [],
+                                "alias": []
+                            }
+                        ],
+                        "alia": [],
+                        "pop": 65,
+                        "st": 0,
+                        "rt": "",
+                        "fee": 8,
+                        "v": 11,
+                        "crbt": null,
+                        "cf": "",
+                        "al": {
+                            "id": 124584032,
+                            "name": "我们点燃来时的路 撑着我们继续向前行走",
+                            "picUrl": "http://p1.music.126.net/c6xgqefZGf9VXR0CscGZ4A==/109951165811404312.jpg",
+                            "tns": [],
+                            "pic_str": "109951165811404312",
+                            "pic": 109951165811404320
+                        },
+                        "dt": 135529,
+                        "h": {
+                            "br": 320000,
+                            "fid": 0,
+                            "size": 5424045,
+                            "vd": -1592
+                        },
+                        "m": {
+                            "br": 192000,
+                            "fid": 0,
+                            "size": 3254445,
+                            "vd": 1053
+                        },
+                        "l": {
+                            "br": 128000,
+                            "fid": 0,
+                            "size": 2169645,
+                            "vd": 2850
+                        },
+                        "a": null,
+                        "cd": "01",
+                        "no": 1,
+                        "rtUrl": null,
+                        "ftype": 0,
+                        "rtUrls": [],
+                        "djId": 0,
+                        "copyright": 0,
+                        "s_id": 0,
+                        "mark": 8256,
+                        "originCoverType": 0,
+                        "originSongSimpleData": null,
+                        "single": 0,
+                        "noCopyrightRcmd": null,
+                        "rtype": 0,
+                        "rurl": null,
+                        "mst": 9,
+                        "cp": 0,
+                        "mv": 0,
+                        "publishTime": 0
+                    },
+                    "banned": false,
+                    "multiTerminalInfo": {
+                        "icon": "https://p6.music.126.net/obj/wo3DlcOGw6DClTvDisK1/25945717309/b1bf/cda1/4d87/d09bc370e3e1e2ba64d18c32f3c6bad5.png",
+                        "osText": "电脑"
+                    }
+                }
+            ]
+        },
+        "message": ""
     }
 }

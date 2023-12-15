@@ -1,9 +1,8 @@
 {
-    "code": 404,
-    "data": null,
-    "msg": "Not Found",
-    "others": {
-        "status": 200,
-        "body": ""
+    "code": 200,
+    "data": {
+        "code": 200,
+        "more": false,
+        "event": []
     }
 }
