@@ -6,16 +6,14 @@ import os from "os";
 
 const cookie = config.settings.cookie;
 
-const apiPath = "/login/status";
+const apiPath = "/login/refresh";
 // const apiPath = "/captcha/sent";
-// const element = config[apiPath].example[0];
+// console.log("apiPath:::",config[apiPath]);
+const element = config[apiPath].example[0];
 
-const element = {};
+// const element = {};
 
-element.query={
-  phone: "15234941791",
-  captcha: "6917"
-};
+// element.query={};
 
 // element.query={
 //   phone: "15234941791",
@@ -39,6 +37,12 @@ async function main(){
     cookie: cookie,
     realIP: getLocalIP(),
   });
+
+  // console.log("param:::",JSON.stringify({
+  //   ...element.query,
+  //   cookie: cookie,
+  //   realIP: getLocalIP(),
+  // }, null, 4));
 
   // console.log("request_param:::",request_param);
 

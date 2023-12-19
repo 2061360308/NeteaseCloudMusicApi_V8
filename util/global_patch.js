@@ -44,6 +44,7 @@ if (typeof window === "undefined") {
   }
 
   function encodeURIComponent(str) {
+    str = String(str);  // 将输入转换为字符串 以免True，False等非字符无法转换
     var result = "";
 
     if (str !== undefined && str !== null) {
